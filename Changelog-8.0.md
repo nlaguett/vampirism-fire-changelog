@@ -4,13 +4,14 @@
 
 # Map changes
 - Base tweaks: base **25,30**
-- [Temple-of-Prayer] now properly awards **35g** when destroyed
+- Fixed a bunch of awakening regions.
 
 ---
 
 # General
 - Added [ELO-System]
-
+- Fixed loading screen appearing on game start
+- Added **2 observer slots**
 ---
 
 # Vampires changes
@@ -42,8 +43,6 @@
   - On purchase:
     - Announcement: *"Vampires have bought [Sword-of-Dracula]"*
     - [Demonic] music plays
-
-- Buying a **2k gold** item now also puts [Nocturnes-edge] on *cooldown*
 
 ---
 
@@ -84,7 +83,7 @@
     - Lower *hp*
     - Increased movement speed
   - > [Wizard-Frenchman]
-    - Gains a channeled tower-disable ability
+    - Gains a channeled tower-disable ability that disables single tower for 1.5 seconds.
     - Ability is interruptible
 
 ---
@@ -116,7 +115,7 @@
   - *Cooldown*: **30 → 45**
 
 - Added [Dark-Assault]:
-  - Darkens the map for Humans outside of their claimed base
+  - Removes shared vision between human allies.
 
 - [Farsight] buff:
   - *AoE*:
@@ -203,12 +202,17 @@
 
 - [Sentry-Ward] *hp* increased:
   - **200 → 1000**
+  - Cast range increased 
+    **600** -> **1000**
 
 ---
 
 ---
 
 # Humans changes
+
+- > [Temple-of-Prayer] now properly awards **35g** when destroyed
+
 - > [Sapphire]
   - Gold: **8 → 15**
   - XP: **500 → 1000**
@@ -250,6 +254,73 @@
 ---
 
 # New towers
+
+---
+
+- > [Aqua-Outpost]
+  - Replaces [Calcite-Outpost]
+  - Base *damage*: **2**
+  - *Mana pool*: **1500**
+  - *Cooldown*: **1.0**
+  - *Mana regen*: **2 / sec**
+  - Each **1 mana** increases tower *damage* by **+1**
+  - Each attack consumes **10 mana**
+  - Starts at **0 mana**
+  - Mana generation begins only after construction is finished
+  - Other stats same as [Calcite-Outpost]
+
+- > [Orange-Aqua-Outpost]
+  - Upgrade of [Aqua-Outpost]
+  - Base *damage*: **6**
+  - *Mana pool*: **3600**
+  - *Mana regen*: **6 / sec**
+  - Each **1 mana** increases *damage* by **+1**
+  - Current mana is carried over on upgrade
+  - Increased mana regen applies only after upgrade completes
+  - Each attack consumes **30 mana**
+  - Other stats same as [Orange-Calcite-Outpost]
+
+- > [Green-Aqua-Outpost]
+  - Upgrade of [Orange-Aqua-Outpost]
+  - Base *damage*: **24**
+  - *Mana pool*: **14400**
+  - *Mana regen*: **24 / sec**
+  - Each **1 mana** increases *damage* by **+1**
+  - Each attack consumes **120 mana**
+  - Other stats unchanged
+
+---
+
+- > [Pink-Healing-Tower]
+  - Upgraded from [Pink-Diamond-Tower]
+  - Replaces the upgraded Pink Tower
+  - Removed:
+    - Toolkit
+    - Gem Quality research
+    - Holy Essence
+    - Engineer’s Vitality
+  - Requirements:
+    - [Slayer-Vault]
+    - [Healing-Essence] research  
+      *(Advanced Research Center)*
+  - Cannot attack enemies
+  - *Range*: **1300**
+  - *Mana pool*: **12000**
+  - *Mana regen*: **50 / sec**
+  - Construction time: **30s** *(instead of 5s)*
+  - After construction:
+    - Starts with **6000 mana**
+  - Active ability:
+    - Consumes **ALL mana**
+    - Heals a structure for the exact amount of mana spent
+    - Single-target healing (no bounce)
+  - *Cooldown*: **60s** per tower  
+    *(Prevents low-mana towers from being prioritized over high-mana ones)*
+  - Build limit: **12**
+  - Cannot be upgraded
+  - Other stats same as upgraded [Pink-Diamond-Tower]
+
+
 - > [Zero-Tower]
   - Replaces [Time-Tower]
   - Upgraded from [Opals]
@@ -331,6 +402,16 @@
     - [Aqua]
     - [Emerald]
 
+- > [Marble-Wall]
+  - Alternative of [Garnet-Wall]
+  - Cost : **45** gold and **85000** lumber.
+  - Stats -> Repair rate: **35**
+    Base hp: **28 000**
+    Armor: **100**
+  - Ability: 
+    For each minion within **range** increases **10 *armor***. Armor linger period **2 *second***.
+  - Location: [Chrysoprase-Wall] or [Aquamarine-Wall]
+
 ---
 
 # Economy
@@ -397,11 +478,29 @@
 
 ---
 
-# Others
-- Fixed loading screen appearing on game start
-- Added **2 observer slots**
+# Researches
 
----
+- > [Healing-Essence]
+  - Cost: **5 gold**, **10000 wood**
+  - Research time: **30s**
+  - Effect:
+    - Unlocks the [Pink-Healing-Tower]
+  - Status: **DONE**
+
+- > [Healing-Advancement]
+  - Requires [Command-Center] Level 1
+  - Cost: **20 gold**, **50000 wood**
+  - Effect:
+    - [Pink-Healing-Tower] *mana regen* increased to **100 / sec**
+
+- > [Healing-Advancement]
+  - Requires [Base-Of-Operations] Level 2
+  - Cost: **100 gold**, **200000 wood**
+  - Effect:
+    - [Pink-Healing-Tower] *mana regen* increased to **200 / sec**
+  - Status: **DONE**
+
+--- 
 
 - > [The-Casino]
   - Replaces [Temple-of-Prayers]
@@ -477,6 +576,20 @@
 - Same event cannot overlap
 - Losing does not increase reward scaling
 
+---
+
+# Weaknesses
+
+- Has no [Diamond-wall]
+- No [blessed-ring]
+- can't make [lightning-oracle], [ultra-lightning-oracle]
+- No [fang-blades]
+- No [pink-diamond-tower] (no research [gem-Quality], [holy-essence])
+- No [time-tower]. [Calcite-tower]
+- Has no [fire-blades] on [Command-Center]
+- mini [gold-mine]/ base feed alot more, required to build more structures 
+
+---
 
 # Orc Race – Design Overview
 
@@ -661,8 +774,9 @@ To compensate for these free and automatic upgrades:
 
 ### Super Healing Tower
 - Healing is used **automatically**
-- Cast time reduced to **0.5s**
+- Cast time reduced to **0**
 - *HP* increased to **5000**
+- Heal ability mana cost **100 -> 50**
 - Other stats unchanged
 
 ---
@@ -676,6 +790,7 @@ To compensate for these free and automatic upgrades:
 - Cannot build [ULO]
 - [LO] cost increased: **650k → 750k**
 - Cannot use [Armageddon]
+- No [Fire-Blade]
 
 ---
 
@@ -707,5 +822,7 @@ To compensate for these free and automatic upgrades:
 - **HeavenEqual**  
   For creating a **hostbot** to host and manage the game lobbies.
 
-- **xB0SSx**  
+- **xB0SSx** and **Scyther**  
   For extensive testing of the races and helping identify bugs and balance issues.
+
+- Thanks to everyone who participated in inhouse testing for this version.
