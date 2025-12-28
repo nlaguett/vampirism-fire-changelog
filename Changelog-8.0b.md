@@ -6,6 +6,14 @@
 
 ---
 
+---
+
+# General
+
+- > Disabled **wood** share for humans.
+
+---
+
 - > [Judegment-Day]
   - Judgement Day now correctly count buildings from architect and orc.
 
@@ -44,6 +52,7 @@
   - Nocturnes edge
   
 - > [Vampiric-Recall] now correctly expire after min 18
+
 
 ---
 
