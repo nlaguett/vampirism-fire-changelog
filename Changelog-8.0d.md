@@ -1,174 +1,142 @@
 # Vampirism Fire 8.0d
 
----
+# Bug Fixes
 
-## Bug Fixes
+# Main
+- Custom mode will now be confirmed at 10 votes.
+- Updated clan tags
+- Gold coin no longer give +1000 mana
+- Fixed the leakrate, it is now 10% leak by default.
+- Orc and Architect can now pop the message when first citadel/command center/base of operations is built.
+- Camera distance is now correctly set from the start of the game.
+- Fixed main builder can no longer be killed before min 6.
+- All repair units can no longer repair ally structures.
+- Slayers can no longer buy in ally shop fixed.
 
----
+# Vampires
 
-## Main
+- Shattering level 2 now clear [Brick-Houses]
 
-- Custom mode is now confirmed at **10 votes**.
-- Updated clan tags.
-- Gold coins no longer grant **+1000 mana**.
-- Fixed leak rate — it is now **10%** by default.
-- Orc and Architect players now receive the notification when their first **Citadel / Command Center / Base of Operations** is built.
-- Camera distance is now correctly set at the start of the game.
-- Fixed an issue allowing Main Builders to be killed before **minute 6**.
-- Repair units can no longer repair **ally** structures.
-- Slayers can no longer buy items from ally shops.
+- Fel beast can now attack orc engineers
 
----
+- Fixed Demonic toto from [The-Casino]
 
-## Vampires
+# Architect 
 
-- **Shattering (Level 2)** now clears **Brick Houses**.
-- **Fel Beast** can now attack Orc Engineers.
-- Fixed **Demonic Toto** from **The Casino**.
+- Removed Marble wall temporarily, until it's completely fixed.
 
----
+- Removed the attack animation from the slayer
 
-## Architect
+- [Demon-Tower] hotkey changed from K to Q
 
-- **Marble Wall** temporarily removed until fully fixed.
-- Removed the attack animation from **Slayers**.
-- **Demon Tower**
-  - Hotkey changed from **K → Q**
-- **Mini Gold Mine**
-  - Income is now correctly removed when destroyed.
-  - Now correctly counted during **Judgement Day**.
-- Building **Spire of Heaven** now correctly replaces **Slayer** with **Master Slayer**.
+- Mini goldmine income is now correctly removed when killed.
 
----
+- Mini goldmine are now correctly count in the judgement day
 
-## Humans
+- Build Spire of Heaven now correctly replace slayer by master slayer
 
-- **Amethyst Walls**
-  - No longer gain gem-quality HP.
-  - Base HP increased from **1400 → 2240**.
-- **Orc Tower Builder** renamed to **Human Tower Builder**.
+# Human
 
----
+- [Amethyst-walls] 
+    No longer gain gem quality hp.
+    Base hp increased from 1400 -> 2240
 
-## Orc
+- Orc Tower Builder -> Human Tower Builder
 
-- **Amethyst Walls**
-  - No longer gain gem-quality HP.
-  - Base HP increased from **1400 → 2240**.
-- Fixed building animations for:
-  - **Advanced Research Center**
-  - **Orc Vault**
-  - **Base of Operations**
-  - (Buildings no longer play cooking animations when idle.)
-- **Arcane Tower**
-  - Hotkey changed from **A → R**
+# Orc
 
----
+- [Amethyst-walls] 
+    No longer gain gem quality hp.
+    Base hp increased from 1400 -> 2240
 
-## Balance Changes
+- Fixed the building animation for the following buildings:
+    Advanced Research Center, Orc's Vault, Base of Operations
+    They no longer have cooking animation when not working
 
----
+- [Arcane-Tower]
+    Hotkey changed A -> R
 
-## General
+# Balance changes
 
-- **Warlock** no longer grants **+1 level** to Slayers.
+# General 
 
----
+- **Warlock** no longer give +1 level to slayers.
 
-## Architect
+# Architect
 
-- **Aqua Outpost** (Nerf)
-  - Lumber cost reduced from **7500 → 3500**
-  - Mana pool increased from **1500 → 14400**
-- **Orange Aqua Outpost**
-  - Lumber cost increased from **3500 → 7500**
-  - Mana pool increased from **3600 → 14400**
-- **Metal Amethyst Wall**
-  - No longer gains gem-quality HP.
-  - Base HP increased from **3500 → 4000**
+- [Aqua-Outpost] nerf
+    Lumber cost decreased 7500 -> 3500
+    Manapool increased 1500 > 14400
 
----
+- [Orange-Aqua-Outpost]
+    Lumber cost increased 3500 -> 7500
+    Manapool increased 3600 > 14400
 
-## Orc
+- [Metal-Amethyst-Wall]
+    No longer gain gem quality hp
+    Base hp increased 3500 -> 4000
 
-- **Fang Blade** changes
-  - No longer applied automatically.
-  - Now researched in **Advanced Research Center**.
-  - Costs:
-    - Lumber: **0**
-    - Gold: **0**
-    - Cooking time: **0**
-  - Requirement: **Citadel of Faith**
-- **Wall Tower**
-  - HP increased from **5000 → 6500**
-- **Demolisher Tower**
-  - Gold bounty reduced from **100 → 15**
-  - AOE damage increased from **250 → 400**
-  - Build time reduced from **36 → 10**
-  - Armor type changed to **Fortified**
-- **Upgraded Demolisher Tower**
-  - Gold bounty reduced from **100 → 30**
-  - AOE damage increased from **250 → 400**
-  - Build time reduced from **36 → 10**
-  - Lumber cost increased from **3000 → 7500**
-  - Armor type changed to **Fortified**
-- **Burning Oil** (Ability)
-  - Damage buffed — now deals **75 / 50 damage per proc**
-- **Fortress House**
-  - Requirement changed from **Gold Mine → First Gold Mine**
+# Orc
 
----
+- [Fang-Blade] changements
+    **Fang Blade** is no longer applied automatically. 
+    It is now located in the Advanced Research center
+    Lumber cost 0
+    Gold cost 0
+    Cooking time 0
+    Requirements -> Citadel Of Faith
 
-## Humans
+- [Wall-Tower]
+    Hp increased 5000 -> 6500
+    
+- [Demolisher-Tower]
+    Gold bounty award 100 -> 15
+    Buffed the Aoe attack 250 -> 400
+    Build time 36 -> 10
+    Armor type has been changed to Fortified
 
-- **Calcite Outpost**
-  - Damage increased from **1050 → 1150**
-- **Orange Calcite Outpost**
-  - Damage increased from **2800 → 2950**
-- **Green Calcite Outpost**
-  - Damage increased from **10500 → 11500**
-- **Command Center** and **Base of Operations**
-  - Now produce **280 food** instead of **250**
-  - _Note: Producing food does not increase the food limit._
+- [Upgraded-Demolisher]
+    Gold bounty award 100 -> 30
+    Buffed the Aoe attack 250 -> 400
+    Build time 36 -> 10
+    Lumber cost increased 3000 -> 7500
+    Armor type has been changed to Fortified
 
----
+- [Burning-Oil] Ability
+    Buffed its damage, it should now deal 75/50 damage per procs
 
-## New Content
+- [Fortress-House]
+    Requirements changed **Goldmine** -> **First Goldmine**
+    
 
----
+# Human
+- [Calcite-Outpost]
+    Damage increased 1050 -> 1150
+    
+- [Orange-Calcite-Outpost]
+    Damage increased 2800 -> 2950
 
-## Architect
+- [Green-Calcite-Outpost]
+    Damage increased 10500 -> 11500
 
-- New models added for:
-  - **Lumber Mill**
-  - **Brick House**
-  - **Research Center**
-  - **Advanced Research Center**
-  - **Architect’s Vault**
-  - **Citadel of Faith**
-  - **Command Center**
-  - **Base of Operations**
-  - New **Slayer** model
+- [Command-Center] and [Base-Of-Operations] now produce 280 food instead of 250
+    ^ Produce food, doesnt mean it increase food limit.
 
----
+# New
 
-## Other
+# Architect
 
----
+- New model for [Lumber-Mill], [Brick-House], [Research-Center], [Advanced-Research-Center],
+    [Architect's-Vault], [Citadel-Of-Faith], [Command-Center], [Base-Of-Operations],
+    New [Slayer]
 
-## General
+# Other
 
-- Fixed tooltips for:
-  - **Demonic Remains**
-  - **Orc Super Wall Tower**
-  - **Silent Whisper**
-  - **The Casino**
-  - **Calcite Outposts** (Normal / Orange / Green)
-  - and more
+# general
 
----
+- Fixed tooltip : demonic remains, Orc Super wall Tower, silent whisper, the casino, Calcite Outpost (normal,orange,green) and more
 
-## Vampires
+# Vampires
 
-- Added new command **`-gl`** allowing Vampires to send lumber.
-- Removed **Path of Destruction** ability due to stability issues.
+- New command -gl for vampires to send lumber
+- Removed Path Destruction ability since it was causing issues.
