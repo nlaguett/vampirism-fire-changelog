@@ -18,7 +18,7 @@
 ---
 
 ## Human
-
+ 
 - Re-added **Supervision Outpost**.
   - No longer pings its location on the minimap when built.
   - Cost reduced from **2000 → 1200 lumber**.
