@@ -13,13 +13,14 @@
 - [Goblin-Tower-Builder] build limit set to **3**.
 - [Main-Builder] mana regeneration increased from **0.100 -> 0.200**
 
+
 ### Skin System
 - New UI implemented for changing skins.
 - The interface can be opened using the button located in the **bottom-left corner** of the screen.
 - Displays every unlockable skin along with its unlock requirements.
 - Selected skins are now **saved automatically**, so they no longer need to be selected every game.
 
-![Skin System](image.png)
+![skin-system-ui](image-3.png)
 
 ---
 
@@ -209,7 +210,28 @@ The following modes have been **added**:
   - Removed abilities from Pages 1 and 2.
   - Pages 2 and 3 are now accessed using a new button located in the **bottom-left corner** of the screen.
   - Ability pages can now be freely grouped and organized.
-![alt text](image-1.png)
-![alt text](image-2.png)
+![rc-buttons](image-1.png)
+![rc-buttons](image-2.png)
+
+
+## Map Changes
+
+- Base reworks:
+  - Bases **1, 3, 4, 7, 9, 10, 11, 12, 13, 15, 19, 24, 26**
+  - Base 1 : ![Base 1](image-4.png)
+  - Base 3 : ![Base 3](image-5.png)
+  - Base 4 : ![Base 4](image-6.png)
+  - Base 7 : ![Base 7](image-7.png)
+  - Base 9 : ![Base 9](image-8.png)
+  - Base 10 : ![Base 10](image-9.png)
+  - Base 11 : ![Base 11](image-10.png)
+  - Base 12 : ![Base 12](image-11.png)
+  - Base 13 : ![Base 13](image-13.png)
+  - Base 15 : ![Base 15](image-12.png)
+  - Base 19 : ![Base 19](image-14.png)
+  - Base 24 : ![Base 24](image-15.png)
+  - Base 26 : ![Base 26](image-16.png)
+
+  - Added a new portal top -> bot : ![top-portal](image-17.png) ![bot-portal](image-18.png)
 
 ---
