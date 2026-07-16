@@ -13,9 +13,9 @@
 
 - New custom mode option **no edge bases**
   - All edges bases removed when the game start. 
-![edge-base1](<Capture d'écran 2026-07-16 142133.png>)
-![edge-base2](<Capture d'écran 2026-07-16 142120.png>)
-![edge-base3](<Capture d'écran 2026-07-16 142059.png>)
+![edge-base1](Images/Capture d'écran 2026-07-16 142133.png)
+![edge-base2](Images/Capture d'écran 2026-07-16 142120.png)
+![edge-base3](Images/Capture d'écran 2026-07-16 142059.png)
 
 
 ### Solo Vamp Mode

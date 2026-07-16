@@ -83,7 +83,7 @@ The following modes have been **added**:
 ### Slayer's Tavern
 
 - Added the new **Blademaster Slayer**.
-![alt text](image-19.png)
+![alt text](Images/image-19.png)
 
 ---
 
@@ -99,25 +99,25 @@ The following modes have been **added**:
 
 - Replaced the **Worker Peon** model with the **Fel Peon**.
   - Fixed portrait.
-  ![Worker-Harvester](image-20.png)
+  ![Worker-Harvester](Images/image-20.png)
 - Replaced the **Grunt Harvester** model with the **Fel Grunt**.
   - Fixed portrait.
-  ![Grunt-Harvester](image-21.png)
+  ![Grunt-Harvester](Images/image-21.png)
 - Replaced the **Fang Harvester** model from **Shaman** to **Felguard**.
   - Added the **Doom Guard** soundset.
 
-    ![Fang-Harvester](image-22.png)
+    ![Fang-Harvester](Images/image-22.png)
 - Replaced the **Kodo Spawn Deforester** model from **Baine** to **Drak'thul**.
   - Renamed to **Fire Spawn Deforester**.
-![Fire-Spawn-Harvester](image-23.png)
+![Fire-Spawn-Harvester](Images/image-23.png)
 - Restored the original skin color for the **Satyr Harvester**.
-    ![Satyr-Harvester](image-24.png)
+    ![Satyr-Harvester](Images/image-24.png)
 - Changed the **Orc Tower Builder** model from **Fel Peon** to **Fel Shaman**.
   - Fixed portrait.
 
-    ![Orc-Tower-Builder](image-25.png)
+    ![Orc-Tower-Builder](Images/image-25.png)
 
-![Harvesters](image-26.png)
+![Harvesters](Images/image-26.png)
 
 ---
 
@@ -149,13 +149,13 @@ The following modes have been **added**:
 
 - Fixed **Super Tower Builder** portrait.
 - Replaced the **Goblin Tower Builder** model from **Fel Shaman** to **Goblin**.
-![Goblin-Tower-Builder](image-27.png)
+![Goblin-Tower-Builder](Images/image-27.png)
 ---
 
 ### Witch Doctor
 
 - Fixed missing name for **Sentry Ward**.
-![Sentry-Ward](image-28.png)
+![Sentry-Ward](Images/image-28.png)
 ---
 
 ## Human
@@ -187,7 +187,7 @@ The following modes have been **added**:
 
 - [Super-Eclipse-Tower]
   - Added new tint for distinction purpose between the tower level 1 and level 2
-![Super-Eclipse-Tower](image-29.png)
+![Super-Eclipse-Tower](Images/Images/image-29.png)
 
 ---
 
@@ -210,7 +210,7 @@ The following modes have been **added**:
 
 - [House/Stronghold/Fortress]
   - Updated 'Satyr Harvester' to use Satyr Shadowdancer (Blue).
-  ![alt text](image-32.png)
+  ![alt text](Images/image-32.png)
 
 - [Research-Center]
   - Updated 'Improved Worker Motivation' text description to include Hitpoints.
@@ -266,13 +266,13 @@ The following modes have been **added**:
 - [Vampiric-Awakening]
   - Now gives **<bounty-awarded> * 3**
   - Replace temporarily the ground textures by undead earth for 3 seconds.
-  ![Awakening-Blight](<Capture d'écran 2026-07-15 134251.png>)
+  ![Awakening-Blight](Images/Capture d'écran 2026-07-15 134251.png)
 - [Mana-Resistance-Shield] (upgrade)
   - Now has a *buff* as indicator for the builders to scout if vampires bought the upgrade.
-![Mana-Resistance-Shield](image-30.png)
+![Mana-Resistance-Shield](Images/image-30.png)
 - [Teleportation-Rod] (upgrade)
   - Now has a *buff* as indicator for the builders to scout if vampires bought the upgrade.
-![Teleportation-Rod](image-31.png)
+![Teleportation-Rod](Images/image-31.png)
 - [Research-Center]
   - Removed abilities from Pages 1 and 2.
   - Pages 2 and 3 are now accessed using a new button located in the **bottom-left corner** of the screen.
@@ -283,20 +283,20 @@ The following modes have been **added**:
 
 - Base reworks:
   - Bases **1, 3, 4, 7, 9, 10, 11, 12, 13, 15, 19, 24, 26**
-  - Base 1 : ![Base 1](image-4.png)
-  - Base 3 : ![Base 3](image-5.png)
-  - Base 4 : ![Base 4](image-6.png)
-  - Base 7 : ![Base 7](image-7.png)
-  - Base 9 : ![Base 9](image-8.png)
-  - Base 10 : ![Base 10](image-9.png)
-  - Base 11 : ![Base 11](image-10.png)
-  - Base 12 : ![Base 12](image-11.png)
-  - Base 13 : ![Base 13](image-13.png)
-  - Base 15 : ![Base 15](image-12.png)
-  - Base 19 : ![Base 19](image-14.png)
-  - Base 24 : ![Base 24](image-15.png)
-  - Base 26 : ![Base 26](image-16.png)
+  - Base 1 : ![Base 1](Images/image-4.png)
+  - Base 3 : ![Base 3](Images/image-5.png)
+  - Base 4 : ![Base 4](Images/image-6.png)
+  - Base 7 : ![Base 7](Images/image-7.png)
+  - Base 9 : ![Base 9](Images/image-8.png)
+  - Base 10 : ![Base 10](Images/image-9.png)
+  - Base 11 : ![Base 11](Images/image-10.png)
+  - Base 12 : ![Base 12](Images/image-11.png)
+  - Base 13 : ![Base 13](Images/image-13.png)
+  - Base 15 : ![Base 15](Images/image-12.png)
+  - Base 19 : ![Base 19](Images/image-14.png)
+  - Base 24 : ![Base 24](Images/image-15.png)
+  - Base 26 : ![Base 26](Images/image-16.png)
 
-  - Added a new portal top -> bot : ![top-portal](image-17.png) ![bot-portal](image-18.png)
+  - Added a new portal top -> bot : ![top-portal](Images/image-17.png) ![bot-portal](Images/image-18.png)
 
 ---
