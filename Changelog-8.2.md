@@ -105,15 +105,17 @@ The following modes have been **added**:
   ![Grunt-Harvester](image-21.png)
 - Replaced the **Fang Harvester** model from **Shaman** to **Felguard**.
   - Added the **Doom Guard** soundset.
-  ![Fang-Harvester](image-22.png)
+
+    ![Fang-Harvester](image-22.png)
 - Replaced the **Kodo Spawn Deforester** model from **Baine** to **Drak'thul**.
   - Renamed to **Fire Spawn Deforester**.
-  ![Fire-Spawn-Harvester](image-23.png)
+![Fire-Spawn-Harvester](image-23.png)
 - Restored the original skin color for the **Satyr Harvester**.
-  ![Satyr-Harvester](image-24.png)
+    ![Satyr-Harvester](image-24.png)
 - Changed the **Orc Tower Builder** model from **Fel Peon** to **Fel Shaman**.
   - Fixed portrait.
-  ![Orc-Tower-Builder](image-25.png)
+
+    ![Orc-Tower-Builder](image-25.png)
 
 ![Harvesters](image-26.png)
 
