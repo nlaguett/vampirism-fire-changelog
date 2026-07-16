@@ -160,6 +160,27 @@ The following modes have been **added**:
 
 ## Human
 
+- [Human-Slayers]
+  - Updated 'Slayer Learned Abilities' to include correct stats and make numbers easier to see.
+      - Added missing level 3 tracker in list.
+  - Updated text for 'Building Protection' to be more specific.
+  - Updated text for 'Summons Tracker' to be more specific.
+  - Updated text for 'Garlic Concoction' to be more specific.
+
+- [House/Stronghold/Fortress]
+  - Added 'DoomGuard' soundset to 'Fang Harvester', previously none.
+  - Updated 'Satyr Harvester' to use Satyr Shadowdancer (Blue).
+
+- [Research-Center]
+  - Updated 'Improved Worker Motivation' text description to include Hitpoints.
+   - Updated 'Slayer Adept Training' text description to include levels.
+
+- [Advanced-Research-Center]
+  - Updated 'Iron Plating' and the remaining to include missing Onyx +50 armor stat.
+  - Removed list of walls for 'Gold collector' as redundant text.
+  - Updated Engineers Vitality to correct Hitpoints upgrade (400 ahead for each level).
+  - Slight text adjustment to Holy Water.
+
 - [Eclipse-Tower] and [Super-Eclipse-Tower]
   - Fixed the Selection Scale value.
   - Changed the projectile
@@ -179,6 +200,36 @@ The following modes have been **added**:
 
 ## Architect
 
+
+- [Architect-Slayers]
+  - Updated 'Slayer Learned Abilities' to include correct stats and make numbers easier to see.
+      - Added missing level 3 tracker in list.
+  - Updated text for 'Building Protection' to be more specific.
+  - Updated text for 'Summons Tracker' to be more specific.
+  - Updated text for 'Garlic Concoction' to be more specific.
+
+- [House/Stronghold/Fortress]
+  - Updated 'Satyr Harvester' to use Satyr Shadowdancer (Blue).
+  ![alt text](image-32.png)
+
+- [Research-Center]
+  - Updated 'Improved Worker Motivation' text description to include Hitpoints.
+   - Updated 'Slayer Adept Training' text description to include levels.
+
+- [Advanced-Research-Center]
+  - Updated 'Iron Plating' and the remaining to include missing Onyx +50 armor stat.
+  - Removed list of walls for 'Gold collector' as redundant text.
+  - Updated Engineers Vitality to correct Hitpoints upgrade (400 ahead for each level).
+  - Slight text adjustment to Holy Water.
+
+- [Icons]
+  - Replaced 'Architect's Vault' human's icon with appropriate icon.
+  - Replaced 'Advanced Research Center' human's icon with appropriate icon.
+  - Replaced 'Citadel of Faith' human's icon with appropriate icon.
+  - Replaced 'Command Center' human's icon with appropriate icon.
+  - Replaced 'Base of Operations' human's icon with appropriate icon.
+
+
 - Added [Barricade-Builder]
   - Barricades now last **30 seconds**.
 
@@ -188,6 +239,9 @@ The following modes have been **added**:
 ---
 
 ## Vampires
+
+- [Hellfire-Pit]
+  - Fixed a bug where vampires could buy additional Vampire units.
 
 - [Dark-Assault] 
   - No longer affect dead players & observers.
