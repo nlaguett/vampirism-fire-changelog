@@ -5,6 +5,7 @@
 ## Main
 
 - Version is fully rewritten in Lua and will hopefully improve the in game performances.
+- **WaterWalker007** statue now play the soundboard **This is WaterWalker007** when clicked.
 - Default camera distance increased **1640 → 2500**
 - When a *Vampire* dies, **50%** of the value of all researched upgrades is refunded.
 - *Vampires* can no longer destroy the **Slayer's Tavern** before **minute 2**.
@@ -20,7 +21,7 @@
 - Displays every unlockable skin along with its unlock requirements.
 - Selected skins are now **saved automatically**, so they no longer need to be selected every game.
 
-![skin-system-ui](image-3.png)
+
 
 ---
 
@@ -82,6 +83,7 @@ The following modes have been **added**:
 ### Slayer's Tavern
 
 - Added the new **Blademaster Slayer**.
+![alt text](image-19.png)
 
 ---
 
@@ -97,15 +99,23 @@ The following modes have been **added**:
 
 - Replaced the **Worker Peon** model with the **Fel Peon**.
   - Fixed portrait.
+  ![Worker-Harvester](image-20.png)
 - Replaced the **Grunt Harvester** model with the **Fel Grunt**.
   - Fixed portrait.
+  ![Grunt-Harvester](image-21.png)
 - Replaced the **Fang Harvester** model from **Shaman** to **Felguard**.
   - Added the **Doom Guard** soundset.
+  ![Fang-Harvester](image-22.png)
 - Replaced the **Kodo Spawn Deforester** model from **Baine** to **Drak'thul**.
   - Renamed to **Fire Spawn Deforester**.
+  ![Fire-Spawn-Harvester](image-23.png)
 - Restored the original skin color for the **Satyr Harvester**.
+  ![Satyr-Harvester](image-24.png)
 - Changed the **Orc Tower Builder** model from **Fel Peon** to **Fel Shaman**.
   - Fixed portrait.
+  ![Orc-Tower-Builder](image-25.png)
+
+![Harvesters](image-26.png)
 
 ---
 
@@ -137,13 +147,13 @@ The following modes have been **added**:
 
 - Fixed **Super Tower Builder** portrait.
 - Replaced the **Goblin Tower Builder** model from **Fel Shaman** to **Goblin**.
-
+![Goblin-Tower-Builder](image-27.png)
 ---
 
 ### Witch Doctor
 
 - Fixed missing name for **Sentry Ward**.
-
+![Sentry-Ward](image-28.png)
 ---
 
 ## Human
@@ -154,6 +164,7 @@ The following modes have been **added**:
 
 - [Super-Eclipse-Tower]
   - Added new tint for distinction purpose between the tower level 1 and level 2
+![Super-Eclipse-Tower](image-29.png)
 
 ---
 
@@ -199,19 +210,17 @@ The following modes have been **added**:
 - [Vampiric-Awakening]
   - Now gives **<bounty-awarded> * 3**
   - Replace temporarily the ground textures by undead earth for 3 seconds.
-
+  ![Awakening-Blight](<Capture d'écran 2026-07-15 134251.png>)
 - [Mana-Resistance-Shield] (upgrade)
   - Now has a *buff* as indicator for the builders to scout if vampires bought the upgrade.
-
+![Mana-Resistance-Shield](image-30.png)
 - [Teleportation-Rod] (upgrade)
   - Now has a *buff* as indicator for the builders to scout if vampires bought the upgrade.
-
+![Teleportation-Rod](image-31.png)
 - [Research-Center]
   - Removed abilities from Pages 1 and 2.
   - Pages 2 and 3 are now accessed using a new button located in the **bottom-left corner** of the screen.
   - Ability pages can now be freely grouped and organized.
-![rc-buttons](image-1.png)
-![rc-buttons](image-2.png)
 
 
 ## Map Changes
