@@ -70,8 +70,14 @@
   - Removed the minions abilities
   - Purge ability should now correctly purge the banish ability.
 
+- [Bouncy-Orb] (Fix)
+  - Level 1 Now correclty require citadel of faith.
+  - Level 2 now correctly require command center.
+  - Level 2 gold cost was increased from **0 -> 10g**
 - [Temple-of-Prayers]
   - Fixed all pacts rewards.
+  - Fixed an issue that would not apply pact effect on wall.
+  - Fixed an issue that would not destroy pact effect when a pact expire.
   - Fixed the UI that shows pacts duration for each player.
 
     <img src="Capture d'écran 2026-07-23 140526.png" width="620" alt="Pacts-UI">
@@ -146,9 +152,13 @@
   
 - Reverted back the bounty gain from Awakening.
 
+- Vampires can now use tp rod on frenchies.
+
 - [Blood-Particle] Level 2
   - Cost increased from **7 -> 10 lumber**
 
+- [Urn-Of-Reveal]
+  - Duration increased from **10 -> 25 seconds**.
 - [Unholy-Infernal]
   - Now unlock at the **min 16** mark.
 
@@ -185,6 +195,7 @@
 ---
 
 ## Qol Changes 
+
 
 
 
