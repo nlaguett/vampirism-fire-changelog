@@ -4,198 +4,234 @@
 
 ## Main
 
-- Disabled tracker spawn if a slayer is in a claimed base ally base.
+- ELO and games played have been reset for everyone.
+- Disabled tracker spawning when a Slayer is inside a claimed allied base.
+- Slayers now correctly display a death message when killed.
 - Builders no longer have permanent vision in the vampire base.
   - Before
   
-    <img src="Capture d'écran 2026-07-23 143440.png" width="400" alt="Vision-Bug">
+    <img src="Images/bendor/Capture d'écran 2026-07-23 143440.png" width="400" alt="Vision-Bug">
   
   - After
   
-    <img src="Capture d'écran 2026-07-23 143956.png" width="400" alt="Vision-Fixed">
+    <img src="Images/bendor/Capture d'écran 2026-07-23 143956.png" width="400" alt="Vision-Fixed">
 
-- [Holy-Blood-Tower] can now be paused by flag.
 - Fixed an issue that would allow observers to vote in the custom mode.
-- [Big-Magic-Potion]
-  - Gold cost reduced from **9 -> 5**
-  - Lumber cost reduced from **22 000 -> 17 000**
-- Fixed an issue that would allow observers to vote in the custom mode option.
+- **Big Magic Potion**
+  - Gold cost reduced from **9 → 5**.
+  - Lumber cost reduced from **22 000 → 17 000**.
+- Harvesters now have a sleep effect if they are not harvesting.
 
-- Harvesters now have sleep effect if they are not harvesting.
+  <img src="Images/bendor/Capture d'écran 2026-07-23 151622.png" width="400" alt="Afk-Harvester">
 
-  <img src="Capture d'écran 2026-07-23 151622.png" width="400" alt="Afk-Harvester">
-
-- [Race-Selection]
-  - Changed the placements of the race buttons
-  - Before :
+- **Race Selection**
+  - Changed the placement of the race buttons.
+  - Before:
   
-    <img src="Capture d'écran 2026-08-04 112123.png" width="400" alt="Race-Selection">
+    <img src="Images/bendor/Capture d'écran 2026-08-04 112123.png" width="400" alt="Race-Selection">
 
-  - After :
+  - After:
   
-    <img src="Capture d'écran 2026-07-29 145320.png" width="400" alt="Race-Selection">
+    <img src="Images/bendor/Capture d'écran 2026-07-29 145320.png" width="400" alt="Race-Selection">
 
 ---
 
-## Custom Mode 
+## Custom Mode
 
-- Added new vamp mode to the custom mode option instead of alternative to pro mode and custom mode.
+- Added **Vampire Mode** as a new custom mode option.
 
-- New custom mode option **no edge bases**
-  - All edges bases removed when the game start. 
+- New custom mode option: **No Edge Bases**
+  - All edge bases are removed when the game starts.
 
 <p>
-  <a href="Capture d'écran 2026-07-16 142133.png"><img src="Capture d'écran 2026-07-16 142133.png" width="260" alt="edge-base1"></a>
-  <a href="Capture d'écran 2026-07-16 142120.png"><img src="Capture d'écran 2026-07-16 142120.png" width="260" alt="edge-base2"></a>
-  <a href="Capture d'écran 2026-07-16 142059.png"><img src="Capture d'écran 2026-07-16 142059.png" width="260" alt="edge-base3"></a>
+  <a href="Images/bendor/image.png"><img src="Images/bendor/image.png" width="260" alt="edge-base1"></a>
+  <a href="Images/bendor/image-1.png"><img src="Images/bendor/image-1.png" width="260" alt="edge-base2"></a>
+  <a href="Images/bendor/image-2.png"><img src="Images/bendor/image-2.png" width="260" alt="edge-base3"></a>
 </p>
 
 
 ### Solo Vamp Mode
 
-- Updated income values : 
+- Updated income values:
   - Minutes 12–17: **60** gold/minute
   - Minutes 18–23: **100** gold/minute
-  - Minutes 24–35: **150** gold/minute
+  - Minutes 24–35: **200 → 150** gold/minute
   - Minutes 1–11 and minute 36 onward remain unchanged.
 
-- Chain cd 50% reduction removed
-- When the vampire cast a chain, a second chain will be casted on a random furb within 500 range of the vampire.
+- Removed the 50% chain cooldown reduction.
+- When a Vampire casts a chain, a second chain is cast on a random furb within 500 range of the Vampire.
+
 ---
 
 ## Human
 
-- Critters now correctly award mana to the **main-builder** when killed.
-- [Black-Magic-Spire] reworked + fixed.
-  - Removed the minions abilities
+- Critters now correctly award mana to the **Main Builder** when killed.
+- **Holy Blood Tower** can now be paused using the flag.
+- **Black Magic Spire** reworked and fixed.
+  - Removed the minions' abilities.
   - Purge ability should now correctly purge the banish ability.
 
-- [Bouncy-Orb] (Fix)
-  - Level 1 Now correclty require citadel of faith.
-  - Level 2 now correctly require command center.
-  - Level 2 gold cost was increased from **0 -> 10g**
-- [Temple-of-Prayers]
-  - Fixed all pacts rewards.
-  - Fixed an issue that would not apply pact effect on wall.
-  - Fixed an issue that would not destroy pact effect when a pact expire.
-  - Fixed the UI that shows pacts duration for each player.
+- **Bouncy Orb**
+  - Level 1 now correctly requires Citadel of Faith.
+  - Level 2 now correctly requires Command Center.
+  - Level 2 gold cost increased from **0 → 10 gold**.
+- **Temple of Prayers**
+  - Fixed all pact rewards.
+  - Fixed an issue that prevented pact effects from being applied to walls.
+  - Fixed an issue that prevented pact effects from being removed when a pact expired.
+  - Fixed the UI that shows pact durations for each player.
 
-    <img src="Capture d'écran 2026-07-23 140526.png" width="620" alt="Pacts-UI">
+    <img src="Images/bendor/Capture d'écran 2026-07-23 140526.png" width="620" alt="Pacts-UI">
 
-  - Hover :
+  - Hover:
 
-    <img src="Capture d'écran 2026-07-23 140532.png" width="620" alt="Pacts-UI-duration">
+    <img src="Images/bendor/Capture d'écran 2026-07-23 140532.png" width="620" alt="Pacts-UI-duration">
+
 ---
 
 ## Orc
 
-- Fixed an issue that would require 2 gold mines instead of 1 to upgrade **Fortress**
+- Fixed an issue that required 2 gold mines instead of 1 to upgrade **Fortress**.
 - Fixed an issue that would allow orcs to train 2 slayers.
 - Fixed an issue that allowed Orcs to research Slayer Tech two extra times; it is now capped at level 3 like the other races.
-- [Main-Builder] mana regeneration increased from **0.100 -> 0.200**
-- Wall tower tint changed to orange :
+- **Main Builder** mana regeneration increased from **0.100 → 0.200**.
+- Wall tower tint changed to orange:
     
-    <img src="Capture d'écran 2026-07-23 161941.png" width="300" alt="Orc-Wall-Tower">
+    <img src="Images/bendor/Capture d'écran 2026-07-23 161941.png" width="300" alt="Orc-Wall-Tower">
 
 ---
 
 ## Architect
 
-- [Main-Builder] mana regeneration increased from **0.100 -> 0.200**
+- **Main Builder** mana regeneration increased from **0.100 → 0.200**.
 
-- Re added [The-Casino]
-  - Added ability tooltip **Casino Rules**
-  - Added **Gambling Dice**
-    - Requires 5 gold, 120 cd
-    - 3/6 chance: Get 7 gold (earn 2 gold)
-    - 2/6 chance: Nothing (you lose 5 gold)
-    - 1/6 chance:
-    - Tax Tower
+- Re-added **The Casino**.
+  - Added the **Casino Rules** ability tooltip.
+  - Added **Gambling Dice**.
+    - Requires 5 gold; 120-second cooldown.
+    - 3/6 chance: Gain 7 gold (2 gold profit).
+    - 2/6 chance: Gain nothing (lose 5 gold).
+    - 1/6 chance: Unlock Alchemist Tower.
 
-- [Tax-Tower]
-  - 1 attack speed, 600 NORMAL damage, 5000 hp. 
-    - Can be upgraded 3 times requiring cita, cc, boo
-      - Cita level 2: 10000 hp, 1800 dmg. Cost 15000w
-      - Cc level 3: 15000 hp, 5400 dmg. Cost 40,000w
-      - Boo level 4: 20000 hp, 0.5 attack speed, 15,000 damage, cost 100,000w
+- **Alchemist Tower**
+  - Gold cost: **15 gold**.
+  - Lumber cost: **40 000 lumber**.
+  - Stats:
+    - Base HP: **20 000 HP**.
+    - Armor: **25 armor**.
+    - Base damage: **2500**.
+    - Attack type: **Chaos Attack**.
+    - Attack speed: **1.0**.
+    - Active ability coming in the next patch: **Active Rage**.
 
-- [Metal-Amethyst-Wall]
-  - Tint changed :
+- **Metal Amethyst Wall**
+  - Tint changed:
 
-    <img src="Capture d'écran 2026-07-17 122706.png" width="300" alt="Metal-Amethyst">
+    <img src="Images/bendor/Capture d'écran 2026-07-17 122706.png" width="300" alt="Metal-Amethyst">
 
-- [Bounty-Jade-Wall] 
-  - tooltip fixed.
-  - Tints changed to golden color :
-  
-    <img src="Capture d'écran 2026-07-17 122415.png" width="400" alt="Bounty-Jade-Wall">
+- **Bounty Jade Wall**
+  - Tooltip fixed.
+  - Tints changed to a golden color:
 
-- [Marble-Wall] re added
-  - Passive ability :
-    - For each armor within **500 range** of the wall, gain **+25 armor**. For each minion within **500 range** of the wall gain **+10 armor**.
-    - Repair time **35**
-    - Base armor **100**
-    - Gold cost : **45g**
-    - Lumber cost : **85 000**
-    - Base hp : **28 000**
-    
+    <img src="Images/bendor/Capture d'écran 2026-07-17 122415.png" width="400" alt="Bounty-Jade-Wall">
+
+- **Marble Wall** re-added.
+  - Passive ability:
+    - Gains **+25 armor** for each armor unit within **500 range** and **+10 armor** for each minion within **500 range**.
+    - Repair time: **35**.
+    - Base armor: **100**.
+    - Gold cost: **45 gold**.
+    - Lumber cost: **85 000**.
+    - Base HP: **28 000**.
+
 ---
 
 ## Vampires
 
-- [Altar-Of-Blood]
-  - Now owned by both of the vampires.
-  - Fixed the issue where Altar of Blood would require "nearby patron" to buy minions.
-  - Fixed an issue that would provide visions in the middle of the map to the builders.
-  - Can be selected from a button and binded like the research center.
+- **Slayers** now award **XP** to Vampires when killed.
 
-  <img src="Capture d'écran 2026-07-21 232852.png" width="400" alt="Altar-Of-Blood">
+- **Vampiric Recall**
+  - Fixed an issue that set the vampire's **scaling value** to **1.0** instead of the model value.
+
+- **Dracula Equipment**
+  - Base damage decreased from **700 → 600**.
+
+- **Ricochet Gem**
+  - Structures hit by **Ricochet Gem** are now immune to additional Ricochet Gem damage for **20 seconds**.
+
+- **Burst Gem**
+  - Structures hit by **Burst Gem** are now immune to additional Burst Gem damage for **15 seconds**.
+
+- **Tax System** adjustments
+  - Tax cap increased:
+    - **10 min:** 700 → 1000
+    - **15 min:** 1300 → 1600
+    - **20 min:** 1800 → 2400
+    - **25 min:** 2500 → 3000
+
+- **Altar of Blood**
+  - Now owned by both **vampires**.
+  - Fixed an issue where **Altar of Blood** required a "nearby patron" to buy minions.
+  - Fixed an issue that provided vision in the middle of the map to builders.
+  - Can now be selected using a button and assigned to a control group like the Research Center.
+
+  <img src="Images/bendor/Capture d'écran 2026-07-21 232852.png" width="400" alt="Altar-Of-Blood">
   
-- Reverted back the bounty gain from Awakening.
+- Reverted the bounty gain from **Awakening**.
 
-- Vampires can now use tp rod on frenchies.
+- **Vampires** can now use **TP Rod** on **Frenchies**.
 
-- [Blood-Particle] Level 2
-  - Cost increased from **7 -> 10 lumber**
+- **Blood Particle — Level 2**
+  - Cost increased from **7 → 10 lumber**.
 
-- [Urn-Of-Reveal]
-  - Duration increased from **10 -> 25 seconds**.
-- [Unholy-Infernal]
-  - Now unlock at the **min 16** mark.
+- **Urn of Reveal**
+  - Duration increased from **10 → 25 seconds**.
 
-- Removed the unintended **Vampire poison** upgrade from the **vampiric research center**
+- **Unholy Infernal**
+  - Now unlocks at the **16-minute** mark.
 
-- Changed all hotkeys to buy items and upgrade for the vampires to fit grid hotkeys (qwerty).
+- Removed the unintended **Vampire Poison** upgrade from the **Vampiric Research Center**.
 
-- [Silent-Whisper]
-  - CD increased from **45 -> 60** seconds
-  - Mana cost increased from **600 -> 800**
-  - Stock cooldown increased from **120 -> 240** seconds
+- Changed all vampire item-purchase and upgrade hotkeys to fit the QWERTY grid.
+
+- **Silent Whisper**
+  - Cooldown increased from **45 → 60 seconds**.
+  - Mana cost increased from **600 → 800**.
+  - Stock cooldown increased from **120 → 240 seconds**.
  
-  - When holding 2 *Silent Whisper* in vampire inventory slot, it combine to upgraded version : 
-  - CD reduced from **60 -> 30** seconds
-  - Mana cost reduced from **800 -> 0**
+  - When holding 2 *Silent Whispers* in the vampire's inventory, they combine into an upgraded version:
+    - Cooldown reduced from **60 → 30 seconds**.
+    - Mana cost reduced from **800 → 0**.
 
-- [Dark-Spear]
-  - Now regenerate **100 mana** for each unit killed
-  - Now regenerate **400 mana** for each slayer kill instead of **100**
+- **Dark Spear**
+  - Now regenerates **100 mana** for each unit killed.
+  - Now regenerates **400 mana** for each slayer killed instead of **100**.
 
-- [Nocturnes-Edge] item removed.
+- **Nocturne's Edge** item removed.
 
-- Levels upgrades locked if the vampire is level *23* before min *15*.
+- **Vampiric Awakening**
+  - Gold awarded is now capped at **150** (previously unlimited).
 
-- [Cloak-of-Power]
-  Gold cost increased from **2400 -> 2600**
-  Damage gain reduced from **12250 -> 10 000**
+- Level upgrades are locked if the vampire reaches level *23* before minute *15*.
 
-- [Awakening]
-  Fixed an issue that would award more gold than intended.
+- **Dracula's Cloak**
+  - No longer requires **Cloak of Shadows**.
+  - No longer requires **Recipe - Dracula Cloak**.
 
-- [Sphere-Of-Doom] now correctly display red screen when bought.
+- **Cloak of Power**
+  - Gold cost increased from **2400 → 2600**.
+  - Damage gain reduced from **12 250 → 10 000**.
+
+- **Awakening**
+  - Fixed an issue that awarded more gold than intended.
+
+- **Sphere of Doom**
+  - Now correctly displays a red screen when purchased.
+  - Reverted the music.
 
 ---
 
-## Qol Changes 
+## QoL Changes
 
 - Updated multiple icons and tooltips for clarity and consistency:
   - Replaced the static Slayer Tech hero icon with icons that change through the upgrade levels.
@@ -203,14 +239,14 @@
   - Renamed **Orc's Vault** to **Human's Vault** so requirements consistently refer to the same building name.
   - Updated the Small, Large, and Ultimate Claws of Attack icons and descriptions, including their combination guide.
   - Replaced the reused **Magic Plating** icon with a distinct shield icon.
-  - Updated the Tower Defenses upgrade icons so levels 1 and 2 use a consistent visual theme.
-  - Replaced the Single Healing Tower Vitality icon with a clearer healing-tower upgrade icon.
-  - Expanded the Gold Plating tooltip with wall-color references.
-  - Updated the Holy Essence icon and description to better communicate its tower-upgrade purpose.
-  - Replaced the reused Engineer repair icon with an engineering icon.
-  - Updated the Devotion Aura icon and level descriptions, including armor-stacking behavior.
-  - Added a warning that Mana Resistance Shield research does not stack with the item.
-  - Updated several Vampire Research Center upgrade icons, descriptions, and colors.
+  - Updated the **Tower Defenses** upgrade icons so levels 1 and 2 use a consistent visual theme.
+  - Replaced the Single **Healing Tower Vitality** icon with a clearer healing-tower upgrade icon.
+  - Expanded the **Gold Plating** tooltip with wall-color references.
+  - Updated the **Holy Essence** icon and description to better communicate its tower-upgrade purpose.
+  - Replaced the reused **Engineer** repair icon with an engineering icon.
+  - Updated the **Devotion Aura** icon and level descriptions, including armor-stacking behavior.
+  - Added a warning that **Mana Resistance Shield** research does not stack with the item.
+  - Updated several **Vampire Research Center** upgrade icons, descriptions, and colors.
 
 ### Visual Comparison
 
@@ -230,8 +266,12 @@
 | <img src="Images/Leo-QoL/12-before.png" width="450" alt="Old Mana Resistance Shield warning"> | <img src="Images/Leo-QoL/12-after.png" width="450" alt="Updated Mana Resistance Shield warning"> |
 | <img src="Images/Leo-QoL/13-before.gif" width="450" alt="Old Vampire Research Center upgrades"> | <img src="Images/Leo-QoL/13-after.gif" width="450" alt="Updated Vampire Research Center upgrades"> |
 
+---
 
+## Base Changes
 
-## Bases change
-
-- Fixed a shifted tree base *19*
+- Fixed a shifted tree in base *19*.
+- Fixed a few shifted trees between base *9 and 10*.
+- Added missing trees next to base *4*.
+- Added missing trees top left of base *9*.
+- Added a tree regrow spot top left of base *9*.
