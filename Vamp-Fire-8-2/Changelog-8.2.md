@@ -240,6 +240,10 @@ The following modes have been **added**:
 
 ## Vampires
 
+- [Silent-Whisper]
+  Cooldown increased from 30 -> 45
+  Disable deto ability now require the upgrade **Silent Whisper** for 3 lumber.
+
 - [Hellfire-Pit]
   - Fixed a bug where vampires could buy additional Vampire units.
 
