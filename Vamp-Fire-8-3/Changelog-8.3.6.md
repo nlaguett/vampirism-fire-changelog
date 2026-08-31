@@ -21,12 +21,6 @@
 
 ---
 
-## Human
-
-- **[Temple-of-Prayers]** pact rewards no longer pay half during **Solo Vamp Mode**.
-
----
-
 ## Vampires
 
 - **[Urn-of-Farsight]** and **[Urn-of-Reveal]** tooltips corrected. Both claimed a 30 second cooldown; Farsight is 20 and Reveal is 10. The Urn of Reveal also described "a large area" when it reveals the **entire map**, and its recipe understated the duration as 10 seconds when it is 25.
