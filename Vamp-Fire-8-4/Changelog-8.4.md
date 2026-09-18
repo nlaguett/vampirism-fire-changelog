@@ -4,12 +4,12 @@
 
 ## Main
 
-- Finish a wall will now display the message "Wall finished!"
+- Finish a **wall** will now display the message **"Wall finished!"**
 - Leakrate setting can now be increased by 1 per click instead of 5.
-- Improved the loading screen fading effect.
+- Improved the [loading-screen] fading effect.
 - Improved the map load at map initialization.
-- Slayer taverns now gain the ghost and invulnerabiliity until they finish to train their slayer or reach min 2.
-- Gold mine income removed from the Mode Selection.
+- Fixed an issue where buying items from the **builder's neutral shop** would display message **"Only vampires can hire these units."**
+- [Gold-mine] income removed from the Mode Selection.
 - `-show` command UI design reworked.
     
     Before:
@@ -34,8 +34,14 @@
 
 - Builders will now gain **4g** at the min 4 instead of the min 5.
 - [Workers] 
-    - hatchet timer was reduced from min 3:30 to min 2.
+    - hatchet timer was reduced from min 3:30 to min 2:30.
+    - The upgrade now lands for every builder at the same moment. It used to be staggered per
+      player with compensation lumber, which is removed along with the stagger.
     - Wood gain was increased by **+50%**.
+
+- [Command-Center] gold cost reduced from **400 -> 375**
+
+- [Slayer] training time reduced from **60 -> 30** seconds.
 
 - [Goblin-Tower-Builder]
     - Gold cost reduced from **150 -> 100**
@@ -57,6 +63,7 @@
 - [Gold-Buy] ability is now available at the min **5 -> 4**
 - [Base-Of-Operations] gold cost reduced from **1000 -> 600**.
 - [Orange-Calcite-Outpost] now require **Citadel Of Faith**
+- [Eclipse-Tower] | [Super-Eclipse-Tower] can now be **repaired**
 
 ## Architect
 
@@ -71,6 +78,8 @@
 
 ## Vampires
 
+
+
 - [Health-Beam] mana cost nerf
     - Level 1 : **100 -> 200**
     - Level 2 : **150 -> 325**
@@ -81,6 +90,12 @@
     - level 10 : **3400 -> 3800**
 
 - [Blood-Particle] level 2 was removed.
+
+- Tax system threshold decreased from **25 -> 24** min.
+
+- **Vampires** now change direction without stopping. Warcraft units halt and rotate on the spot
+  before moving when ordered more than 60 degrees off their facing, which made every reversal
+  pay a stall; vampires now set off immediately on any heading and turn as they travel.
 
 - **Vampires** spawn timer reduced from **55 -> 35** seconds.
 
@@ -106,10 +121,7 @@
     - [Gauntlets-Of-The-Underworld]
         - Gold cost reduced from **2000 -> 1500**
     - The combined item **Dracula's Cloak** damage was reduced from **10500 -> 8500**
-    - Now has scaling damage of +250 dmage per min starting from the min 36 until the min 60.
-
-- [Gauntlets-Of-Hellfire]
-    - Now unlocked at the min 34 for 2400 gold. Gold cost reduced at min 35 to 2200 gold and min 36 for 2000 gold.
+    - Now has scaling damage of **+500** damage per min starting from the min 36 until the min 60, capped at **+12000**.
 
 - [Gauntlet-Of-Renfield]
     - Stock timer increased from **54 -> 55** min.
@@ -137,6 +149,7 @@
     - Same unlock timers as [Sword-Of-Dracula] or [Demonic-Remains].
     - 22 min gold cost **1050g**, 23 min gold cost **950g** and 24 min gold cost **850g**.
     - Gives +4000 damage, no other stats.
+    - 2 **Stanimir Remains** can be combined together like **Vladimir Remains**.
 
 - New item [Silent-Sphere-Of-Doom]
     - Gold cost **850g**
@@ -148,12 +161,24 @@
     - Passive ability : Stack +100 damage per hit when attacking a wall. Effect lost after 4 seconds without attacking a wall.
     - Available at the min 42.
 
+- New item [Nosferatu's-Mantle]
+    - Sold at the **Demonic Gate**, combines with **Sword of Dracula** (which is consumed).
+    - **+1250 STR**
+    - **+1250 AGI**
+    - **+1250 INT**
+    - Passive ability : Stack **+25** damage per hit when attacking a wall. Effect lost after 4 seconds without attacking a wall.
+    - Unlike [Gauntlets-Of-Hellfire] the stack does not double when a second Vampire is nearby, and does not gain the Pro mode bonus.
+    - Gold cost **2000** gold, **2850** once combined.
+    - Available at the min **34**.
+
 - New item [Nocturnes-Edge]
-    - **+450 STR**
-    - **+450 AGI**
+    - **+250 STR**
+    - **+250 AGI**
     - **+1000 INT**
-    - Gold cost 2000 gold
+    - **7500 Damage base**
+    - Gold cost 2000gold
     - Available at the min **34**.
 
 ## other stuff
-- Fixed tooltips : Punisher, dracula equipment, Gauntlet of Renfield, Silent-Whisper.
+- Fixed tooltips : Punisher, dracula equipment, Gauntlet of Renfield, Silent-Whisper, Dracula's Cloak (it advertised +10500 damage against the +8500 it grants).
+- [Vladimir's-Remains] and [Stanimir's-Combined-Remains] now only need **one** free inventory slot to separate. They asked for two, which meant three slots counting the one the combined item sat in.
