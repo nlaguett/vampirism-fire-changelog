@@ -14,21 +14,21 @@
     
     Before:
 
-    <img src="Capture d'écran 2026-09-10 114224.png" width="620" alt="Old-showMode-UI">
+    <img src="Capture d'écran 2026-09-10 114224.png" width="320" alt="Old-showMode-UI">
 
     After:
 
-    <img src="Capture d'écran 2026-09-10 113737.png" width="620" alt="New-showMode-UI">
+    <img src="Capture d'écran 2026-09-10 113737.png" width="520" alt="New-showMode-UI">
 
 - Mode selection UI will now show the mode buttons for all players.
 
     Before:
     
-    <img src="Capture d'écran 2026-09-10 114657.png" width="620" alt="Old-modeSelectionUI">
+    <img src="Capture d'écran 2026-09-10 114657.png" width="520" alt="Old-modeSelectionUI">
 
     After:
     
-    <img src="image.png" width="620" alt="New-modeSelectionUI">
+    <img src="image.png" width="520" alt="New-modeSelectionUI">
 
 ## Main balance
 
@@ -63,7 +63,7 @@
     - added to quell reach.
     - Level 1 build time decreased from **30 -> 10** seconds.
     - Level 2 build time decreased from **30 -> 15** seconds.
-    
+
 - [Human's-Vault] name fixed (was W by mistake).
 - [Fang-Blade] gold cost reduced from **40 -> 34**.
 - [Gold-Buy] ability is now available at the min **5 -> 4**
