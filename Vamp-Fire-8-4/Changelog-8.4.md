@@ -46,6 +46,8 @@
 - [Goblin-Tower-Builder]
     - Gold cost reduced from **150 -> 100**
 
+- [Vampire-Spire] base damage increased **10 000 -> 11500**
+
 ## ELO system
 
 - Ranked games now use the match result and both teams' average ELO to calculate rating changes. Winning gains ELO and losing costs ELO; the previous system could award ELO to a losing player.
@@ -57,19 +59,28 @@
 
 ## Human
 
-- [Sacrificial-Tower] added to quell reach.
+- [Sacrificial-Tower] 
+    - added to quell reach.
+    - Level 1 build time decreased from **30 -> 10** seconds.
+    - Level 2 build time decreased from **30 -> 15** seconds.
+    
 - [Human's-Vault] name fixed (was W by mistake).
 - [Fang-Blade] gold cost reduced from **40 -> 34**.
 - [Gold-Buy] ability is now available at the min **5 -> 4**
 - [Base-Of-Operations] gold cost reduced from **1000 -> 600**.
 - [Orange-Calcite-Outpost] now require **Citadel Of Faith**
 - [Eclipse-Tower] | [Super-Eclipse-Tower] can now be **repaired**
+- [Improved-Gem-Quality] removed the additional **HP** gain.
+- [Healing-Tower] armor reduced from **75 -> 15**
+
+
 
 ## Architect
 
 - [Gold-Buy] ability now available min **6 -> 5**
 - [Base-Of-Operations] gold cost reduced from **1000 -> 800**
 - [Orange-Aqua-Outpost] now require **Citadel Of Faith**
+- [Improved-Gem-Quality] removed the additional **HP** gain.
 
 
 ## Orc
