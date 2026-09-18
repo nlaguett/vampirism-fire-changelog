@@ -189,6 +189,7 @@
     - **7500 Damage base**
     - Gold cost 2000gold
     - Available at the min **34**.
+    - Can be combined with **Stanimir Remains** to make an upgraded version with **11500 base damage**.
 
 ## other stuff
 - Fixed tooltips : Punisher, dracula equipment, Gauntlet of Renfield, Silent-Whisper, Dracula's Cloak (it advertised +10500 damage against the +8500 it grants).
