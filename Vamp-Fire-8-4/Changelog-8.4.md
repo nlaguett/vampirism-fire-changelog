@@ -42,12 +42,18 @@
 
 - [Command-Center] gold cost reduced from **400 -> 375**
 
-- [Slayer] training time reduced from **60 -> 30** seconds.
+- [Slayer] training time reduced from **60 -> 15** seconds.
 
 - [Goblin-Tower-Builder]
     - Gold cost reduced from **150 -> 100**
 
 - [Vampire-Spire] base damage increased **10 000 -> 11500**
+
+
+## Solo vamp mode
+
+- **pillage** ability removed.
+- At the min 15 mark, when a furbolg is killed by chain of death, the vampire chain's CD is reduced by 50%.
 
 ## ELO system
 
@@ -212,4 +218,3 @@
 ## other stuff
 - Fixed tooltips : Punisher, dracula equipment, Gauntlet of Renfield, Silent-Whisper, Dracula's Cloak (it advertised +10500 damage against the +8500 it grants).
 - [Vladimir's-Remains] and [Stanimir's-Combined-Remains] now only need **one** free inventory slot to separate. They asked for two, which meant three slots counting the one the combined item sat in.
-k
