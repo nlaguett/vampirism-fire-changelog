@@ -9,6 +9,7 @@
 - Improved the [loading-screen] fading effect.
 - Improved the map load at map initialization.
 - Fixed an issue where buying items from the **builder's neutral shop** would display message **"Only vampires can hire these units."**
+- **No edge base** mode trees are now harvestable.
 - [Gold-mine] income removed from the Mode Selection.
 - `-show` command UI design reworked.
     
@@ -72,6 +73,7 @@
 - [Eclipse-Tower] | [Super-Eclipse-Tower] can now be **repaired**
 - [Improved-Gem-Quality] removed the additional **HP** gain.
 - [Healing-Tower] armor reduced from **75 -> 15**
+- [Divine-Intervention] now count solo vampire as 2 vampire.
 
 
 
@@ -81,15 +83,30 @@
 - [Base-Of-Operations] gold cost reduced from **1000 -> 800**
 - [Orange-Aqua-Outpost] now require **Citadel Of Faith**
 - [Improved-Gem-Quality] removed the additional **HP** gain.
+- [Shrine-Tower] Splash damage was fixed.
+- [Robotic-Builder] can now build **Architect Surplus**
+
 
 
 ## Orc
 
 - [Gold-Buy] ability is now available min **6 -> 5**
+- [Super-Wall-Tower] now has orange color.
+- [Super-Tower-Builder] hp reduced from **435 -> 400**
 
 ## Vampires
 
+- [Vampires-Selection] UI was improved 
 
+    Before : 
+    
+    <img src="image-1.png" width="320" alt="Old-VampSelection-UI">
+
+    After :
+
+    <img src="image-2.png" width="320" alt="New-VampSelection-UI">
+
+- [Silent-Whisper] fixed an issue where the **poison** ability would last longer than the **silence** itself.
 
 - [Health-Beam] mana cost nerf
     - Level 1 : **100 -> 200**
@@ -142,6 +159,7 @@
 
 - [Sphere-Of-Doom]
     - Gold cost reduced from **700 -> 650**
+    - Now available at the min **20**.
 
 - [Income-Changes] : 
     - *24* min income timer changed to *23* minute
@@ -194,3 +212,4 @@
 ## other stuff
 - Fixed tooltips : Punisher, dracula equipment, Gauntlet of Renfield, Silent-Whisper, Dracula's Cloak (it advertised +10500 damage against the +8500 it grants).
 - [Vladimir's-Remains] and [Stanimir's-Combined-Remains] now only need **one** free inventory slot to separate. They asked for two, which meant three slots counting the one the combined item sat in.
+k
