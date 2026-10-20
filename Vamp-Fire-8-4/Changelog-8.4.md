@@ -11,6 +11,8 @@
 - Fixed an issue where buying items from the **builder's neutral shop** would display message **"Only vampires can hire these units."**
 - **No edge base** mode trees are now harvestable.
 - [Gold-mine] income removed from the Mode Selection.
+- Builders wearing a cosmetic skin now play an animation while repairing (they used to stand still).
+- Fixed the **Temple of Prayer** pact strip (top-right corner) showing before the min 12 or popping up when hovering that corner.
 - `-show` command UI design reworked.
     
     Before:
@@ -48,6 +50,11 @@
     - Gold cost reduced from **150 -> 100**
 
 - [Vampire-Spire] base damage increased **10 000 -> 11500**
+
+
+- [Anti-Tower-Share]
+    - A vampire standing inside a claimed base can now only be attacked by that base's owner. The protection drops 1-2 seconds after the vampire leaves the base.
+    - Architect **Topaz**, **Ruby**, **Red Beryl** and Orc **Topaz** walls are now recognised as walls (tower-share lock, Hellfire, Corrupting Breath, Frail Bricks and every other wall effect ignored them).
 
 
 ## Solo vamp mode
@@ -125,6 +132,12 @@
 
 - [Blood-Particle] level 2 was removed.
 
+- [Vampiric-Awakening] now clears **every builder building outside the base borders**: any race, any building type, finished or still under construction, including buildings blocking the paths next to base entrances. The gold payout is unchanged.
+
+- [Chain-Of-Death] bounces again at levels 5-15 (broken by Warcraft III patch 3.0.1).
+
+- [Urn-Of-Farsight] duration increased from **10 -> 15** seconds, mana cost **50**.
+
 - Tax system threshold decreased from **25 -> 24** min.
 
 - **Vampires** now change direction without stopping. Warcraft units halt and rotate on the spot
@@ -189,6 +202,8 @@
 - New item [Silent-Sphere-Of-Doom]
     - Gold cost **850g**
     - Does not warn when bought.
+    - Available at the min **20**, like the [Sphere-Of-Doom].
+    - Its shop title and tooltip now say it is silent.
 
 - New item [Gauntlet-Of-Damnation]
     - Combine with **Gauntlet of Hellfire**
