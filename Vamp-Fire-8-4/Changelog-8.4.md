@@ -242,7 +242,7 @@
     - Only attacks buildings of players who are **dead or left**, within **2500** range.
     - Targets **Blood Boxes** first, then **gold mines**, then everything else, nearest first.
     - **Blinks** to a target more than **900** away.
-    - Expires early when nothing is left to destroy.
+    - Stays for its full duration even when there is nothing to destroy, and picks up any building that becomes a target while it waits.
     - You can still order it manually; it goes back to auto-targeting when the order ends.
     - A use only counts toward the late-game limit after it has actually killed a building.
 
@@ -281,9 +281,12 @@
     - The combined item **Dracula's Cloak** damage was reduced from **10,500 to 8,500**.
     - Scaling damage is now **+750** per minute from minute 37 through minute 60, capped at **+18,000**.
 
-- [Gauntlet-Of-Renfield]
-    - Stock timer increased from **54 to 55** minutes.
-    - Attack speed gain increased from **30% to 50%**.
+- [Gauntlet-Of-Renfield] is now a **Research Center upgrade** instead of an item:
+    - Costs **3800** gold, available at minute **50** (the item was sold at minute 55).
+    - Permanently gives your Vampire **+50% attack speed**.
+    - The item is no longer sold.
+
+- [Punisher] each qualifying wall hit now gives **+135 strength** (was +115 strength, agility and intelligence).
 
 
 
@@ -326,6 +329,12 @@
     - Does not warn when purchased.
     - Available at minute **20**, like the [Sphere-Of-Doom].
     - Its shop title and tooltip now say it is silent.
+
+- New item: [Nightpiercer] (upgraded Dark Spear, new icon)
+    - **Recipe - Nightpiercer** costs **150** gold at the recipe shop, available at minute **14** like Dracula's Equipment.
+    - Combine the recipe with **Dark Spear**, **Nosferatu's Essence** and **Mana Resistance Shield**.
+    - Keeps everything the Dark Spear does, plus the essence's **+40% mana regeneration** and the shield's **immunity to Mana Energy Tower mana burn**.
+    - Sells for **222** gold (total cost 445).
 
 - New item: [Gauntlet-Of-Damnation] (new icon)
     - Combines with **Gauntlets of Hellfire**.
