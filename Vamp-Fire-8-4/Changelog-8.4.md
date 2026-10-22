@@ -8,6 +8,8 @@
 - Leakrate setting can now be increased by 1 per click instead of 5.
 - Improved the [loading-screen] fading effect.
 - Improved the map load at map initialization.
+- The loading fade-out no longer displays the information panels while the map finishes loading.
+- Removed the author credit names from the map description.
 - Fixed an issue where buying items from the **builder's neutral shop** would display message **"Only vampires can hire these units."**
 - **No edge base** mode trees are now harvestable.
 - [Gold-mine] income removed from the Mode Selection.
@@ -32,6 +34,22 @@
     After:
     
     <img src="image.png" width="520" alt="New-modeSelectionUI">
+
+
+- New lobby screen : 
+
+    <img src="Capture d'écran 2026-10-22 113803.png" width="520" alt="New-Lobby-Screen">
+- Removed credits list from the map description. 
+
+- New loading screen : 
+
+    Before :
+
+    <img src="image-3.png" width="520" alt="Loading screen before">
+
+    After :
+
+    <img src="Capture d'écran 2026-10-22 105504.png" width="520" alt="Loading screen after">
 
 ## Main balance
 
@@ -62,6 +80,7 @@
 - **pillage** ability removed.
 - At the min 15 mark, when a furbolg is killed by chain of death, the vampire chain's CD is reduced by 50%.
 
+
 ## ELO system
 
 - Ranked games now use the match result and both teams' average ELO to calculate rating changes. Winning gains ELO and losing costs ELO; the previous system could award ELO to a losing player.
@@ -86,6 +105,7 @@
 - [Eclipse-Tower] | [Super-Eclipse-Tower] can now be **repaired**
 - [Improved-Gem-Quality] removed the additional **HP** gain.
 - [Healing-Tower] armor reduced from **75 -> 15**
+- [Healing-Tower] can now be toggled between automatic healing and manual casting with right-click.
 - [Divine-Intervention] now count solo vampire as 2 vampire.
 
 
@@ -98,6 +118,10 @@
 - [Improved-Gem-Quality] removed the additional **HP** gain.
 - [Shrine-Tower] Splash damage was fixed.
 - [Robotic-Builder] can now build **Architect Surplus**
+- [Disaster-Tower] hp decreased from **2000 -> 1500**
+- [Advanced-Disaster-Tower] hp decreased from **3500 -> 3000**
+- [Ultimate-Disaster-Tower] hp decreasde from **6500 -> 5000**
+
 
 
 
@@ -106,6 +130,9 @@
 - [Gold-Buy] ability is now available min **6 -> 5**
 - [Super-Wall-Tower] now has orange color.
 - [Super-Tower-Builder] hp reduced from **435 -> 400**
+- [Fang-Harvester] hp increased from **6500 -> 10 000**
+- [Arcane-Tower] hp decreased from **3000 -> 2000**
+
 
 ## Vampires
 
@@ -163,12 +190,14 @@
     - Stock start delay changed from 15 -> 24 minute.
     - Second Ricochet Gem allowed at the min 36.
 
+- [Gauntlets-Of-The-Underworld]
+    - Gold cost reduced from **2000 -> 1500**
+    - Now available at the **min 31**.
+
 - [Dracula's-Cloak] 
     - Now require the recipe **Recipe - Dracula's Cloak** again and it's gold cost was increased from **175 -> 500** gold.
-    - [Gauntlets-Of-The-Underworld]
-        - Gold cost reduced from **2000 -> 1500**
     - The combined item **Dracula's Cloak** damage was reduced from **10500 -> 8500**
-    - Now has scaling damage of **+500** damage per min starting from the min 36 until the min 60, capped at **+12000**.
+    - Now has scaling damage of **+750** damage per min starting from the min 36 until the min 60, capped at **+12000**.
 
 - [Gauntlet-Of-Renfield]
     - Stock timer increased from **54 -> 55** min.
@@ -192,6 +221,19 @@
 
 - [Infernal-Meteor]
     - Now available at the min **15 -> 14**.
+
+- [Hell-Hound] cooldown reduced from **30 -> 15** seconds.
+
+- [Blood-Tower] armor shred no longer jumps to incorrect, extremely large values.
+
+- [Scythe-Of-Necromancy]
+    - Reapers now choose targets through script, prioritising Blood Boxes, then gold mines, then other buildings belonging to dead or departed players.
+    - Reapers blink into range, retarget after a building dies, stop when there is nothing left to clear, and respect manual orders.
+    - A use only counts toward the late-game limit after it has actually killed a building.
+
+- [Dracula's-Reaver-of-Fire]
+    - Level 1 keeps its stun and mana-drain effect.
+    - Level 2 now combines the Reaver with **2 Large Claws of Attack**, grants **+300 damage**, and adds the burn effect.
 
 - New item : [Stanimir-Remains] (idea stolen from v7)
     - Same unlock timers as [Sword-Of-Dracula] or [Demonic-Remains].
@@ -233,3 +275,4 @@
 ## other stuff
 - Fixed tooltips : Punisher, dracula equipment, Gauntlet of Renfield, Silent-Whisper, Dracula's Cloak (it advertised +10500 damage against the +8500 it grants).
 - [Vladimir's-Remains] and [Stanimir's-Combined-Remains] now only need **one** free inventory slot to separate. They asked for two, which meant three slots counting the one the combined item sat in.
+- Pinned World Editor ability fields so saves no longer silently overwrite configured values; this also restores the Chain of Death bounce radius.
