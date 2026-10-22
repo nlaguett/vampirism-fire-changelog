@@ -4,12 +4,14 @@
 
 ## Main
 
-- Finish a **wall** will now display the message **"Wall finished!"**
+- Finish a **wall** will now display the message **"Wall finished!"** (not shown for the cheap Carnelian and Topaz walls).
 - Leakrate setting can now be increased by 1 per click instead of 5.
 - Improved the [loading-screen] fading effect.
 - Improved the map load at map initialization.
 - The loading fade-out no longer displays the information panels while the map finishes loading.
 - Removed the author credit names from the map description.
+- **Ctrl+Q** stats panel rebuilt around builders, with new columns for Furbolgs detonated by Chain of Death and minion kills.
+- [The-Casino] is now available after the min **10**.
 - Fixed an issue where buying items from the **builder's neutral shop** would display message **"Only vampires can hire these units."**
 - **No edge base** mode trees are now harvestable.
 - [Gold-mine] income removed from the Mode Selection.
@@ -43,7 +45,6 @@
 - New lobby screen : 
 
     <img src="Capture d'écran 2026-10-22 113803.png" width="520" alt="New-Lobby-Screen">
-- Removed credits list from the map description. 
 
 - New loading screen : 
 
@@ -78,6 +79,8 @@
 
 - [Slayer] training time reduced from **60 -> 15** seconds.
 
+- [Building-Protection] (Slayer) gets a **level 3** at the min 42: cooldown **300 -> 150** seconds.
+
 - [Goblin-Tower-Builder]
     - Gold cost reduced from **150 -> 100**
 
@@ -111,6 +114,7 @@
     - Level 1 build time decreased from **30 -> 10** seconds.
     - Level 2 build time decreased from **30 -> 15** seconds.
 
+- New building models : **Temple of Prayers**, **Human's Vault**, **Slayer's Tavern** and **Human Surplus**.
 - [Human's-Vault] name fixed (was W by mistake).
 - [Fang-Blade] gold cost reduced from **40 -> 34**.
 - [Gold-Buy] ability is now available at the min **5 -> 4**
@@ -172,7 +176,6 @@
 - [Improved-Gem-Quality] removed the additional **HP** gain.
 - [Shrine-Tower] Splash damage was fixed.
 - [Robotic-Builder] can now build **Architect Surplus**
-- [Disaster-Tower] hp decreased from **2000 -> 1500**
 - [Advanced-Disaster-Tower] hp decreased from **3500 -> 3000**
 - [Ultimate-Disaster-Tower] hp decreasde from **6500 -> 5000**
 - [The-Casino] is now available at the min 10 (was 0 by mistake).
@@ -203,6 +206,8 @@
 
 - [Silent-Whisper] fixed an issue where the **poison** ability would last longer than the **silence** itself.
 
+- [Silent-Whisper] no longer locks the furbolgs' **Detonate**, only their blinks.
+
 - [Health-Beam] mana cost nerf
     - Level 1 : **100 -> 200**
     - Level 2 : **150 -> 325**
@@ -228,12 +233,13 @@
 
 - [Hell-Hound] cooldown reduced from **30 -> 15** seconds.
 
-- [Reaper] reworked so it no longer stands idle:
+- [Scythe-Of-Necromancy] Reapers reworked so they no longer stand idle:
     - Only attacks buildings of players who are **dead or left**, within **2500** range.
     - Targets **Blood Boxes** first, then **gold mines**, then everything else, nearest first.
     - **Blinks** to a target more than **900** away.
     - Expires early when nothing is left to destroy.
     - You can still order it manually; it goes back to auto-targeting when the order ends.
+    - A use only counts toward the late-game limit after it has actually killed a building.
 
 - Tax system threshold decreased from **25 -> 24** min.
 
@@ -244,6 +250,8 @@
 - **Vampires** spawn timer reduced from **55 -> 35** seconds.
 
 - Mana resistance shield stock timer reduced from 7:05 min -> 6:00.
+
+- [Recipe-Dracula's-Equipment] stock timer reduced from **15 -> 14** min.
 
 - [Demonic-Remains], [Sword-Of-Dracula] stock timer adjusted : 
     - 23 -> 24 -> 25 to 22 -> 23 -> 24 minutes.
@@ -283,7 +291,7 @@
     - *24* min income timer changed to *23* minute
     - *36* min income timer changed to *35* minute.
 
-- [Assassin] | [Meat-Carrier] | [Grave-Robber]
+- [Assassin] | [Meat-Carrier] | [Grave-Robber] | [Fel-Beast]
     - Stock starting time reduced from **12 -> 10** min.
 
 - [Frozen-Infernal] | [Corrupted-Infernal]
@@ -316,7 +324,7 @@
 
     <img src="Capture d'écran 2026-10-19 173509.png" width="320" alt="Sword of Dracula after">
 
-- New item : [Stanimir-Remains] (idea stolen from v7)
+- New item : [Stanimir-Remains] (idea stolen from v7) **(currently disabled, not sold in 8.4)**
     - Same unlock timers as [Sword-Of-Dracula] or [Demonic-Remains].
     - 22 min gold cost **1050g**, 23 min gold cost **950g** and 24 min gold cost **850g**.
     - Gives +4000 damage, no other stats.
@@ -328,13 +336,13 @@
     - Available at the min **20**, like the [Sphere-Of-Doom].
     - Its shop title and tooltip now say it is silent.
 
-- New item [Gauntlet-Of-Damnation]
+- New item [Gauntlet-Of-Damnation] (new icon)
     - Combine with **Gauntlet of Hellfire**
     - Gold cost : **2000** gold.
     - Passive ability : Stack +100 damage per hit when attacking a wall. Effect lost after 4 seconds without attacking a wall.
     - Available at the min 42.
 
-- New item [Nosferatu's-Mantle]
+- New item [Nosferatu's-Mantle] (new icon)
     - Sold at the **Demonic Gate**, combines with **Sword of Dracula** (which is consumed).
     - **+1250 STR**
     - **+1250 AGI**
@@ -351,7 +359,7 @@
     - **7500 Damage base**
     - Gold cost 2000gold
     - Available at the min **34**.
-    - Can be combined with **Stanimir Remains** to make an upgraded version with **11500 base damage**.
+    - Can be combined with **Stanimir Remains** to make an upgraded version with **11500 base damage** (inactive while Stanimir Remains is disabled).
     - New icon -> 
 
     Before : 
