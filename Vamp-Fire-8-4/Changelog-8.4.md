@@ -13,6 +13,9 @@
 - [Gold-mine] income removed from the Mode Selection.
 - Builders wearing a cosmetic skin now play an animation while repairing (they used to stand still).
 - Fixed the **Temple of Prayer** pact strip (top-right corner) showing before the min 12 or popping up when hovering that corner.
+- New **loading screen**, game-start splash and **lobby picture** for 8.4. The loading screen lists the 8.4 updates and the most useful chat commands.
+- The host now picks the **game mode before** everyone chooses a race, so races are picked knowing the mode. The race menu shows the chosen mode.
+- Walls and towers keep their normal size while upgrading (Garnet -> Ruby wall and the Sacrificial Tower used to grow huge until the upgrade finished).
 - `-show` command UI design reworked.
     
     Before:
@@ -106,6 +109,7 @@
 - [Gold-Buy] ability is now available min **6 -> 5**
 - [Super-Wall-Tower] now has orange color.
 - [Super-Tower-Builder] hp reduced from **435 -> 400**
+- [Healing-Tower] | [Super-Healing-Tower] the heal button now works like **Repair**: **right-click** toggles auto-heal on/off for that tower (golden swirl = on), left-click still heals a target of your choice. Towers start with auto-heal on.
 
 ## Vampires
 
@@ -137,6 +141,10 @@
 - [Chain-Of-Death] bounces again at levels 5-15 (broken by Warcraft III patch 3.0.1).
 
 - [Urn-Of-Farsight] duration increased from **10 -> 15** seconds, mana cost **50**.
+
+- [Dracula's-Reaver-Of-Fire] now has two levels:
+    - Level 1 (shop, unchanged price): **+200** damage and the **stun** (18%, 1 second, drains 100 mana and purges). The burn moved to level 2.
+    - Level 2: combine the Reaver with **2 Large Claws of Attack**. **+300** damage, the stun **and** the burn (13%, 150 bonus damage). New icon.
 
 - Tax system threshold decreased from **25 -> 24** min.
 
