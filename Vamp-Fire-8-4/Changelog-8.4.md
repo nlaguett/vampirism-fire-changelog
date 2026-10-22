@@ -15,6 +15,7 @@
 - Fixed the **Temple of Prayer** pact strip (top-right corner) showing before the min 12 or popping up when hovering that corner.
 - New **loading screen**, game-start splash and **lobby picture** for 8.4. The loading screen lists the 8.4 updates and the most useful chat commands.
 - The host now picks the **game mode before** everyone chooses a race, so races are picked knowing the mode. The race menu shows the chosen mode.
+- [Blood-Tower] fixed hits sometimes making a vampire's armor jump up or down by about **1,000,000** (broken by Warcraft III patch 3.0; same fix as 8.3.9).
 - Walls and towers keep their normal size while upgrading (Garnet -> Ruby wall and the Sacrificial Tower used to grow huge until the upgrade finished).
 - `-show` command UI design reworked.
     
@@ -146,6 +147,15 @@
     - Level 1 (shop, unchanged price): **+200** damage and the **stun** (18%, 1 second, drains 100 mana and purges). The burn moved to level 2.
     - Level 2: combine the Reaver with **2 Large Claws of Attack**. **+300** damage, the stun **and** the burn (13%, 150 bonus damage). New icon.
 
+- [Hell-Hound] cooldown reduced from **30 -> 15** seconds.
+
+- [Reaper] reworked so it no longer stands idle:
+    - Only attacks buildings of players who are **dead or left**, within **2500** range.
+    - Targets **Blood Boxes** first, then **gold mines**, then everything else, nearest first.
+    - **Blinks** to a target more than **900** away.
+    - Expires early when nothing is left to destroy.
+    - You can still order it manually; it goes back to auto-targeting when the order ends.
+
 - Tax system threshold decreased from **25 -> 24** min.
 
 - **Vampires** now change direction without stopping. Warcraft units halt and rotate on the spot
@@ -176,7 +186,7 @@
     - [Gauntlets-Of-The-Underworld]
         - Gold cost reduced from **2000 -> 1500**
     - The combined item **Dracula's Cloak** damage was reduced from **10500 -> 8500**
-    - Now has scaling damage of **+500** damage per min starting from the min 36 until the min 60, capped at **+12000**.
+    - Now has scaling damage of **+750** damage per min starting from the min 37 until the min 60, capped at **+18000**.
 
 - [Gauntlet-Of-Renfield]
     - Stock timer increased from **54 -> 55** min.
