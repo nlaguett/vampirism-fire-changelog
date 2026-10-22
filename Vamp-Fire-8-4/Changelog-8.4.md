@@ -55,6 +55,16 @@
 
     <img src="Capture d'écran 2026-10-22 105504.png" width="520" alt="Loading screen after">
 
+- New ctrl + Q UI 
+
+    - Before : 
+
+    <img src="image-5.png" width="520" alt="Ctrl+Q UI before">
+
+    - After :
+
+    <img src="image-4.png" width="520" alt="Ctrl+Q UI after">
+
 ## Main balance
 
 - Builders will now gain **4g** at the min 4 instead of the min 5.
@@ -112,6 +122,46 @@
 - [Healing-Tower] can now be toggled between automatic healing and manual casting with right-click.
 - [Divine-Intervention] now count solo vampire as 2 vampire.
 
+- New models :
+    - Slayer's Tavern : 
+    
+    Before : 
+
+    <img src="Capture d'écran 2026-10-22 134000.png" width="520" alt="Slayer's Tavern before">
+
+    After :
+
+    <img src="image-8.png" width="520" alt="Slayer's Tavern after">
+
+    - Temple of Prayers :
+
+    Before : 
+
+    <img src="image-10.png" width="520" alt="Temple of Prayers before">
+
+    After : 
+
+    <img src="image-7.png" width="520" alt="Temple of Prayers after">
+
+    - Human Surplus : 
+
+    Before : 
+
+    <img src="Capture d'écran 2026-10-22 134013.png" width="520" alt="Human Surplus before">
+
+    After :
+
+    <img src="image-9.png" width="520" alt="Human Surplus after">
+
+    - Human's Vault : 
+
+    Before : 
+
+    <img src="Capture d'écran 2026-10-22 134023.png" width="520" alt="Human's Vault before">
+
+    After :
+
+    <img src="Capture d'écran 2026-09-18 171054.png" width="520" alt="Human's Vault after">
 
 
 ## Architect
@@ -125,6 +175,7 @@
 - [Disaster-Tower] hp decreased from **2000 -> 1500**
 - [Advanced-Disaster-Tower] hp decreased from **3500 -> 3000**
 - [Ultimate-Disaster-Tower] hp decreasde from **6500 -> 5000**
+- [The-Casino] is now available at the min 10 (was 0 by mistake).
 
 
 
@@ -155,8 +206,8 @@
 - [Health-Beam] mana cost nerf
     - Level 1 : **100 -> 200**
     - Level 2 : **150 -> 325**
-    - Level 3 : **300 -> 450**
-    - Level 4 : **375 -> 550**
+    - Level 3 : **225 -> 450**
+    - Level 4 : **375 -> 700**
     - Level 5 : **775 -> 850**
     - level 6 : **950 -> 1200**
     - level 10 : **3400 -> 3800**
@@ -172,6 +223,8 @@
 - [Dracula's-Reaver-Of-Fire] now has two levels:
     - Level 1 (shop, unchanged price): **+200** damage and the **stun** (18%, 1 second, drains 100 mana and purges). The burn moved to level 2.
     - Level 2: combine the Reaver with **2 Large Claws of Attack**. **+300** damage, the stun **and** the burn (13%, 150 bonus damage). New icon.
+
+- [Dracula's-Equipment] is now available at the **min 14**.
 
 - [Hell-Hound] cooldown reduced from **30 -> 15** seconds.
 
@@ -252,6 +305,17 @@
     - Level 1 keeps its stun and mana-drain effect.
     - Level 2 now combines the Reaver with **2 Large Claws of Attack**, grants **+300 damage**, and adds the burn effect.
 
+- [Sword-Of-Dracula]
+    - New icon -> 
+
+    Before : 
+
+    <img src="Capture d'écran 2026-10-19 175713.png" width="320" alt="Sword of Dracula before">
+
+    After :
+
+    <img src="Capture d'écran 2026-10-19 173509.png" width="320" alt="Sword of Dracula after">
+
 - New item : [Stanimir-Remains] (idea stolen from v7)
     - Same unlock timers as [Sword-Of-Dracula] or [Demonic-Remains].
     - 22 min gold cost **1050g**, 23 min gold cost **950g** and 24 min gold cost **850g**.
@@ -280,7 +344,7 @@
     - Gold cost **2000** gold, **2850** once combined.
     - Available at the min **34**.
 
-- New item [Nocturnes-Edge]
+- Added back item [Nocturnes-Edge] 
     - **+250 STR**
     - **+250 AGI**
     - **+1000 INT**
@@ -288,6 +352,15 @@
     - Gold cost 2000gold
     - Available at the min **34**.
     - Can be combined with **Stanimir Remains** to make an upgraded version with **11500 base damage**.
+    - New icon -> 
+
+    Before : 
+
+    <img src="Capture d'écran 2026-10-19 175135.png" width="320" alt="Nocturnes Edge before">
+
+    After : 
+    
+    <img src="Capture d'écran 2026-10-19 174758.png" width="320" alt="Nocturnes Edge after">
 
 ## other stuff
 - Fixed tooltips : Punisher, dracula equipment, Gauntlet of Renfield, Silent-Whisper, Dracula's Cloak (it advertised +10500 damage against the +8500 it grants).
