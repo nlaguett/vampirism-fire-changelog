@@ -6,6 +6,7 @@
 
 - Finish a **wall** will now display the message **"Wall finished!"** (not shown for the cheap Carnelian and Topaz walls).
 - Leakrate setting can now be increased by 1 per click instead of 5.
+- Definitive Edition graphics are temporarily disabled for this map.
 - Improved the [loading-screen] fading effect.
 - Improved the map load at map initialization.
 - The loading fade-out no longer displays the information panels while the map finishes loading.
@@ -226,7 +227,9 @@
 
 - [Dracula's-Reaver-Of-Fire] now has two levels:
     - Level 1 (shop, unchanged price): **+200** damage and the **stun** (18%, 1 second, drains 100 mana and purges). The burn moved to level 2.
-    - Level 2: combine the Reaver with **2 Large Claws of Attack**. **+300** damage, the stun **and** the burn (13%, 150 bonus damage). New icon.
+    - Level 2: combine the Reaver with **2 Large Claws of Attack**. **+350** damage, the stun **and** the burn (18%, 150 bonus damage). New icon.
+
+- [Dark-Spear] active damage bonus increased from **+200 -> +450**.
 
 - [Hell-Hound] cooldown reduced from **30 -> 15** seconds.
 
