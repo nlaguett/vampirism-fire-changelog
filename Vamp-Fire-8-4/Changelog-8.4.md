@@ -62,11 +62,11 @@
 
 - New Ctrl+Q UI
 
-    - After:
+    - Before:
 
     <img src="image-4.png" width="520" alt="Ctrl+Q UI after">
     
-    - Before:
+    - After:
 
     <img src="image-5.png" width="520" alt="Ctrl+Q UI before">
 
