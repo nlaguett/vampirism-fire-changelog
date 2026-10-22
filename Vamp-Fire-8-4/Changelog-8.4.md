@@ -29,46 +29,46 @@
     
     Before:
 
-    <img src="Capture d'écran 2026-09-10 114224.png" width="320" alt="Old-showMode-UI">
+    <img src="images/Capture d'écran 2026-09-10 114224.png" width="320" alt="Old-showMode-UI">
 
     After:
 
-    <img src="Capture d'écran 2026-09-10 113737.png" width="520" alt="New-showMode-UI">
+    <img src="images/Capture d'écran 2026-09-10 113737.png" width="520" alt="New-showMode-UI">
 
 - Mode selection UI will now show the mode buttons for all players.
 
     Before:
     
-    <img src="Capture d'écran 2026-09-10 114657.png" width="520" alt="Old-modeSelectionUI">
+    <img src="images/Capture d'écran 2026-09-10 114657.png" width="520" alt="Old-modeSelectionUI">
 
     After:
     
-    <img src="image.png" width="520" alt="New-modeSelectionUI">
+    <img src="images/image.png" width="520" alt="New-modeSelectionUI">
 
 
 - New lobby screen:
 
-    <img src="Capture d'écran 2026-10-22 113803.png" width="520" alt="New-Lobby-Screen">
+    <img src="images/Capture d'écran 2026-10-22 113803.png" width="520" alt="New-Lobby-Screen">
 
 - New loading screen:
 
     Before:
 
-    <img src="image-3.png" width="520" alt="Loading screen before">
+    <img src="images/image-3.png" width="520" alt="Loading screen before">
 
     After:
 
-    <img src="Capture d'écran 2026-10-22 105504.png" width="520" alt="Loading screen after">
+    <img src="images/Capture d'écran 2026-10-22 105504.png" width="520" alt="Loading screen after">
 
 - New Ctrl+Q UI
 
     - Before:
 
-    <img src="image-4.png" width="520" alt="Ctrl+Q UI after">
+    <img src="images/image-4.png" width="520" alt="Ctrl+Q UI after">
     
     - After:
 
-    <img src="image-5.png" width="520" alt="Ctrl+Q UI before">
+    <img src="images/image-5.png" width="520" alt="Ctrl+Q UI before">
 
 ## Main balance
 
@@ -135,41 +135,41 @@
     
     Before:
 
-    <img src="Capture d'écran 2026-10-22 134000.png" width="520" alt="Slayer's Tavern before">
+    <img src="images/Capture d'écran 2026-10-22 134000.png" width="520" alt="Slayer's Tavern before">
 
     After:
 
-    <img src="image-8.png" width="520" alt="Slayer's Tavern after">
+    <img src="images/image-8.png" width="520" alt="Slayer's Tavern after">
 
     - Temple of Prayers :
 
     Before:
 
-    <img src="image-10.png" width="520" alt="Temple of Prayers before">
+    <img src="images/image-10.png" width="520" alt="Temple of Prayers before">
 
     After:
 
-    <img src="image-7.png" width="520" alt="Temple of Prayers after">
+    <img src="images/image-7.png" width="520" alt="Temple of Prayers after">
 
     - Human Surplus:
 
     Before:
 
-    <img src="Capture d'écran 2026-10-22 134013.png" width="520" alt="Human Surplus before">
+    <img src="images/Capture d'écran 2026-10-22 134013.png" width="520" alt="Human Surplus before">
 
     After:
 
-    <img src="image-9.png" width="520" alt="Human Surplus after">
+    <img src="images/image-9.png" width="520" alt="Human Surplus after">
 
     - Human's Vault:
 
     Before:
 
-    <img src="Capture d'écran 2026-10-22 134023.png" width="520" alt="Human's Vault before">
+    <img src="images/Capture d'écran 2026-10-22 134023.png" width="520" alt="Human's Vault before">
 
     After:
 
-    <img src="Capture d'écran 2026-09-18 171054.png" width="520" alt="Human's Vault after">
+    <img src="images/Capture d'écran 2026-09-18 171054.png" width="520" alt="Human's Vault after">
 
 
 ## Architect
@@ -201,11 +201,11 @@
 
     Before:
     
-    <img src="image-1.png" width="320" alt="Old-VampSelection-UI">
+    <img src="images/image-1.png" width="320" alt="Old-VampSelection-UI">
 
     After:
 
-    <img src="image-2.png" width="320" alt="New-VampSelection-UI">
+    <img src="images/image-2.png" width="320" alt="New-VampSelection-UI">
 
 - [Silent-Whisper] fixed an issue where the **poison** ability would last longer than the **silence** itself.
 
@@ -309,11 +309,11 @@
 
     Before:
 
-    <img src="Capture d'écran 2026-10-19 175713.png" width="320" alt="Sword of Dracula before">
+    <img src="images/Capture d'écran 2026-10-19 175713.png" width="320" alt="Sword of Dracula before">
 
     After:
 
-    <img src="Capture d'écran 2026-10-19 173509.png" width="320" alt="Sword of Dracula after">
+    <img src="images/Capture d'écran 2026-10-19 173509.png" width="320" alt="Sword of Dracula after">
 
 - New item: [Stanimir-Remains] (idea from v7) **(currently disabled and not sold in 8.4)**
     - Same unlock timers as [Sword-Of-Dracula] or [Demonic-Remains].
@@ -355,11 +355,11 @@
 
     Before:
 
-    <img src="Capture d'écran 2026-10-19 175135.png" width="320" alt="Nocturnes Edge before">
+    <img src="images/Capture d'écran 2026-10-19 175135.png" width="320" alt="Nocturnes Edge before">
 
     After:
     
-    <img src="Capture d'écran 2026-10-19 174758.png" width="320" alt="Nocturnes Edge after">
+    <img src="images/Capture d'écran 2026-10-19 174758.png" width="320" alt="Nocturnes Edge after">
 
 ## Other fixes
 - Fixed tooltips for Punisher, Dracula's Equipment, Gauntlets of Renfield, Silent Whisper, and Dracula's Cloak (which advertised +10,500 damage instead of the +8,500 it grants).
