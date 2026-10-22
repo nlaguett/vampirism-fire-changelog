@@ -10,8 +10,6 @@
 - Improved the map load at map initialization.
 - The loading fade-out no longer displays the information panels while the map finishes loading.
 - Removed the author credit names from the map description.
-- **Ctrl+Q** stats panel rebuilt around builders, with new columns for Furbolgs detonated by Chain of Death and minion kills.
-- [The-Casino] is now available after the min **10**.
 - Fixed an issue where buying items from the **builder's neutral shop** would display message **"Only vampires can hire these units."**
 - **No edge base** mode trees are now harvestable.
 - [Gold-mine] income removed from the Mode Selection.
@@ -56,7 +54,7 @@
 
     <img src="Capture d'écran 2026-10-22 105504.png" width="520" alt="Loading screen after">
 
-- New ctrl + Q UI 
+- New ctrl + Q UI : stats panel rebuilt around builders, with new columns for Furbolgs detonated by Chain of Death and minion kills.
 
     - Before : 
 
@@ -80,6 +78,8 @@
 - [Slayer] training time reduced from **60 -> 15** seconds.
 
 - [Building-Protection] (Slayer) gets a **level 3** at the min 42: cooldown **300 -> 150** seconds.
+
+- [Archangel] **Mirror Image** works again: its illusions were deleted the moment they appeared. Killing an illusion no longer announces the Archangel's death or gives slayer XP.
 
 - [Goblin-Tower-Builder]
     - Gold cost reduced from **150 -> 100**
@@ -114,7 +114,6 @@
     - Level 1 build time decreased from **30 -> 10** seconds.
     - Level 2 build time decreased from **30 -> 15** seconds.
 
-- New building models : **Temple of Prayers**, **Human's Vault**, **Slayer's Tavern** and **Human Surplus**.
 - [Human's-Vault] name fixed (was W by mistake).
 - [Fang-Blade] gold cost reduced from **40 -> 34**.
 - [Gold-Buy] ability is now available at the min **5 -> 4**
@@ -229,8 +228,6 @@
     - Level 1 (shop, unchanged price): **+200** damage and the **stun** (18%, 1 second, drains 100 mana and purges). The burn moved to level 2.
     - Level 2: combine the Reaver with **2 Large Claws of Attack**. **+300** damage, the stun **and** the burn (13%, 150 bonus damage). New icon.
 
-- [Dracula's-Equipment] is now available at the **min 14**.
-
 - [Hell-Hound] cooldown reduced from **30 -> 15** seconds.
 
 - [Scythe-Of-Necromancy] Reapers reworked so they no longer stand idle:
@@ -300,19 +297,6 @@
 - [Infernal-Meteor]
     - Now available at the min **15 -> 14**.
 
-- [Hell-Hound] cooldown reduced from **30 -> 15** seconds.
-
-- [Blood-Tower] armor shred no longer jumps to incorrect, extremely large values.
-
-- [Scythe-Of-Necromancy]
-    - Reapers now choose targets through script, prioritising Blood Boxes, then gold mines, then other buildings belonging to dead or departed players.
-    - Reapers blink into range, retarget after a building dies, stop when there is nothing left to clear, and respect manual orders.
-    - A use only counts toward the late-game limit after it has actually killed a building.
-
-- [Dracula's-Reaver-of-Fire]
-    - Level 1 keeps its stun and mana-drain effect.
-    - Level 2 now combines the Reaver with **2 Large Claws of Attack**, grants **+300 damage**, and adds the burn effect.
-
 - [Sword-Of-Dracula]
     - New icon -> 
 
@@ -373,4 +357,5 @@
 ## other stuff
 - Fixed tooltips : Punisher, dracula equipment, Gauntlet of Renfield, Silent-Whisper, Dracula's Cloak (it advertised +10500 damage against the +8500 it grants).
 - [Vladimir's-Remains] and [Stanimir's-Combined-Remains] now only need **one** free inventory slot to separate. They asked for two, which meant three slots counting the one the combined item sat in.
+- Custom VIP blinks now apply: players with a personal blink (e.g. bendor, Valentine) were silently getting the default one.
 - Pinned World Editor ability fields so saves no longer silently overwrite configured values; this also restores the Chain of Death bounce radius.
