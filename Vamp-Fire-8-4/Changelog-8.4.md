@@ -5,6 +5,9 @@
 ## Main
 
 - Updated clan tags.
+- Definitive Edition graphics are temporarily disabled for this map.
+
+- Updated clan tags.
 - Finishing a **wall** now displays the message **"Wall finished!"** (not shown for the cheap Carnelian and Topaz walls).
 - The leak rate can now be increased by 1 per click instead of 5.
 - Improved the [loading-screen] fading effect.
@@ -227,10 +230,9 @@
 
 - [Dracula's-Reaver-Of-Fire] now has two levels:
     - Level 1 (shop, unchanged price): **+200** damage and the **stun** (18%, 1 second, drains 100 mana and purges). The burn moved to level 2.
-    - Level 2: combine the Reaver with **2 Large Claws of Attack**. **+380** damage, the stun **and** the burn (18%, 150 bonus damage). New icon.
+    - Level 2: combine the Reaver with **2 Large Claws of Attack**. **+350** damage, the stun **and** the burn (18%, 150 bonus damage). New icon.
 
-- [Dark-Spear]
-    - Damage gain on active was increased from **+200 -> +450**
+- [Dark-Spear] active damage bonus increased from **+200 to +450**.
 
 - [Dracula's-Equipment] is now available at minute **14**.
 
@@ -362,4 +364,5 @@
 ## Other fixes
 - Fixed tooltips for Punisher, Dracula's Equipment, Gauntlets of Renfield, Silent Whisper, and Dracula's Cloak (which advertised +10,500 damage instead of the +8,500 it grants).
 - [Vladimir's-Remains] and [Stanimir's-Combined-Remains] now need only **one** free inventory slot to separate. They previously required two, which meant three slots including the slot occupied by the combined item.
+- Custom VIP blinks now apply: players with a personal blink (for example, Bendor or Valentine) no longer silently receive the default blink.
 - Pinned World Editor ability fields so saves no longer silently overwrite configured values; this also restores the Chain of Death bounce radius.
