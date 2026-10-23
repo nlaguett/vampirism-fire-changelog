@@ -127,7 +127,6 @@
 - [Eclipse-Tower] and [Super-Eclipse-Tower] can now be **repaired**.
 - [Improved-Gem-Quality] no longer grants the additional **HP**.
 - [Healing-Tower] armor reduced from **75 to 15**.
-- [Healing-Tower] can now be toggled between automatic healing and manual casting with right-click.
 - [Divine-Intervention] now counts a solo vampire as two vampires.
 
 - New models:
