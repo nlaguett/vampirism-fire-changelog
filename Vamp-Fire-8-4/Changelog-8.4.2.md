@@ -41,6 +41,9 @@
 - Demonic Gate fixes:
     - Fixed items appearing **twice** after the minute 23 / 24 price changes.
     - Fixed **Gauntlets of Hellfire** and **Gauntlets of the Underworld** disappearing from the Demonic Gate.
+    - Fixed **Nosferatu's Mantle** (and Nocturne's Edge) appearing twice after another 2k item was bought.
+    - [Nosferatu's-Mantle] and [Nocturnes-Edge] now open at minute **34** on the game clock. Buying any of the four 2k items still puts the other three on cooldown, so a vampire can't buy two at once.
+- Fixed **Recipe - Nightmare's Teller** appearing twice in the Recipe Shop after it was bought.
 
 - Shop hotkeys now follow the button grid (Q W E R / A S D F / Z X C):
     - Demonic Gate: Demonic Remains **Q**, Sword of Dracula **W**, Stanimir Remains **E**, Sphere of Doom **R**, Silent Sphere of Doom **A**, Gauntlets of the Underworld **S**, Nosferatu's Mantle **D**, Gauntlets of Hellfire **F**, Nocturne's Edge **Z**, Punisher **X**.
