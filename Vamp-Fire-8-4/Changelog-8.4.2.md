@@ -44,6 +44,7 @@
     - Fixed **Nosferatu's Mantle** (and Nocturne's Edge) appearing twice after another 2k item was bought.
     - [Gauntlets-Of-Hellfire] now opens at minute **34** (was 35), together with [Nosferatu's-Mantle] and [Nocturnes-Edge] (now on the game clock). Buying any of the four 2k items still puts the other three on cooldown, so a vampire can't buy two at once.
 - Fixed **Recipe - Nightmare's Teller** appearing twice in the Recipe Shop after it was bought.
+- Fixed the Black Market's **Large Claws of Attack +80** reset at minute 9: it is back in stock at 9:00 and restocks one every 60 seconds (it could also remove a different Black Market item).
 
 - Shop hotkeys now follow the button grid (Q W E R / A S D F / Z X C):
     - Demonic Gate: Demonic Remains **Q**, Sword of Dracula **W**, Stanimir Remains **E**, Sphere of Doom **R**, Silent Sphere of Doom **A**, Gauntlets of the Underworld **S**, Nosferatu's Mantle **D**, Gauntlets of Hellfire **F**, Nocturne's Edge **Z**, Punisher **X**.
