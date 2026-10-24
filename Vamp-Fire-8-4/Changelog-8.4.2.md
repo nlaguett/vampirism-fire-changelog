@@ -40,7 +40,7 @@
 
 - Demonic Gate fixes:
     - Fixed items appearing **twice** after the minute 23 / 24 price changes.
-    - Fixed **Demonic Remains**, **Sword of Dracula**, **Stanimir Remains** and **Gauntlets of Hellfire** disappearing from the Demonic Gate after they were bought: they now come back after **3 minutes**, like Gauntlets of the Underworld.
+    - Fixed **Demonic Remains**, **Sword of Dracula**, **Stanimir Remains** and **Gauntlets of Hellfire** disappearing from the Demonic Gate after they were bought. Bought items now **stay in the shop**, greyed out with a countdown, and can be bought again after **3 minutes**.
     - Fixed **Nosferatu's Mantle** (and Nocturne's Edge) appearing twice after another 2k item was bought.
     - [Nosferatu's-Mantle] and [Nocturnes-Edge] now open at minute **34** on the game clock. Buying any of the four 2k items still puts the other three on cooldown, so a vampire can't buy two at once.
 - Fixed **Recipe - Nightmare's Teller** appearing twice in the Recipe Shop after it was bought.
