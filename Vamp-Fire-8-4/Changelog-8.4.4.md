@@ -3,16 +3,16 @@
 ---
 
 ## Main
-
+- Updated clan tags.
 - The **-stats** command now works for **observers**.
+- [Slayer-Adept-Trainig] upgrade now research in 40/40/40 -> 10/30/50 seconds.
+- **Observers** now have the human UI interface.
 
+## Orc
+
+- [Base-Of-Operations] gold cost reduced from 1000 -> 600 gold.
 
 ## Humans
-
-- Flame tower damage increased:
-    - **Tower of Flames**: 300 -> **325**
-    - **Super Tower of Flames**: 800 -> **850**
-    - **Ultimate Tower of Flames**: 3,200 -> **3,600**
 
 - **Black Magic Spire**: Purge now only works on **enemy minions** and can no longer target vampires.
 
@@ -24,8 +24,3 @@
 ## Vampires
 
 - **Unholy Infernal** now unlocks at minute **18 -> 16** (still requires level 20). Fixed the upgrade not appearing when the timer was reached.
-
-
-## Misc
-
-- Removed Blade from the HC clan.
