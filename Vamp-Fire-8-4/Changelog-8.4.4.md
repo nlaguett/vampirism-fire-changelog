@@ -3,7 +3,7 @@
 ---
 
 ## Main
-
+- Updated clan tags.
 - The **-stats** command now works for **observers**.
 - [Slayer-Adept-Trainig] upgrade now research in 40/40/40 -> 10/30/50 seconds.
 - **Observers** now have the human UI interface.
@@ -24,8 +24,3 @@
 ## Vampires
 
 - **Unholy Infernal** now unlocks at minute **18 -> 16** (still requires level 20). Fixed the upgrade not appearing when the timer was reached.
-
-
-## Misc
-
-- Removed Blade from the HC clan.
