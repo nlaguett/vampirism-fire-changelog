@@ -5,7 +5,12 @@
 ## Main
 
 - The **-stats** command now works for **observers**.
+- [Slayer-Adept-Trainig] upgrade now research in 40/40/40 -> 10/30/50 seconds.
+- **Observers** now have the human UI interface.
 
+## Orc
+
+- [Base-Of-Operations] gold cost reduced from 1000 -> 600 gold.
 
 ## Humans
 
