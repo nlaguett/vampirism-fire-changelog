@@ -14,11 +14,6 @@
 
 ## Humans
 
-- Flame tower damage increased:
-    - **Tower of Flames**: 300 -> **325**
-    - **Super Tower of Flames**: 800 -> **850**
-    - **Ultimate Tower of Flames**: 3,200 -> **3,600**
-
 - **Black Magic Spire**: Purge now only works on **enemy minions** and can no longer target vampires.
 
 - Architect **Outpost towers** now deal **magic** damage (was pierce).
