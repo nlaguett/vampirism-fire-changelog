@@ -6,8 +6,7 @@
 
 - The Ctrl+Q board now shows **Coins Picked** to **observers**.
 - Fixed the Ctrl+Q **Chain Detos** column always showing 0.
-- **Wins and ELO are now per player**: a builder who **died, left or became a minion** no longer gets a **win** when the builders win, and now **loses** ELO instead of gaining it. The longer they survived, the less they lose.
-- **Minions** no longer get a win when the vampires win.
+- **Wins and ELO are now per player**: a builder who **died or left** no longer gets a **win** when the builders win, and now **loses** ELO instead of gaining it. The longer they survived, the less they lose.
 - Fixed ELO changes depending on the order of player slots: every player is now rated from the team ratings at the start of the game.
 
 
